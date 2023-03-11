@@ -30,28 +30,29 @@ background colour specified in hexadecimal format
 7. All pages:  should have a fluid layout (the page should “Reflow” on page resize).
 */
 
-body
-{
-	background-color: lightgrey;
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
-h1
-{
-	color: black;
+h1 {
+    margin-bottom: 10px;
 }
 
-h3
-{
-	color: black;
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h4
-{
-	color: black;
+nav {
+    margin-bottom: 10px;
 }
 
-p
-{
-	color: black;
+body {
+    text-align: center;
+    font-size: 12px;
 }
-	
+
+footer {
+    color: rgb(110, 110, 110);
+    font-size: 10px;
+}
