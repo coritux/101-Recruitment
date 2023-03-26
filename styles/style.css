@@ -56,6 +56,9 @@ body {
 Border-style: solid;
  text-align: left;
 }
+.jobApplication {
+ text-align: left;
+}
 
 aside {
   width: 30%;
