@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Page for application to job">
+  <meta name="keywords" content="Apply, Personal, Details">
+  <meta name="author" content="5 Guys">
+  <title>Jop Application Page</title>
+</head>
+<body>
+  <h1>Apply Here</h1>
+  <form>
+    <fieldset>
+      <legend>Job Type</legend>
+      <p><label>Job Reference Number: <input type="text" name="preferencenumber" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <p><label>First Name: <input type="text" name="first_name" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label></p><label>Last Name: <input type="text" name="last_name" pattern="^[a-zA-Z]+$" maxlength="20" required="reqiured"></label><br>
+      <p><label>Date of Birth: <input type="date" name="birthday" required="required"></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>Gender:</legend> <label><input type="radio" name="gender" value="Excel"> Male</label> <label><input type="radio" name="gender" value="Female">Female</label><label><input type="radio" name="gender" value="Other" required="required">Other</label>
+    </fieldset>
+    <fieldset>
+      <legend>Contact Details:</legend> <label>Street Address: <input type="text" name="street_address" required="required" maxlength="40"></label>
+      <p><label>Suburb/town: <input type="text" name="suburb_town" required="required" maxlength="40"></label></p>
+      <p><label for="State">State</label> <select name="State" id="State">
+        <option value="VIC">
+          VIC
+        </option>
+        <option value="NSW">
+          NSW
+        </option>
+        <option value="QLD">
+          QLD
+        </option>
+        <option value="NT">
+          NT
+        </option>
+        <option value="WA">
+          WA
+        </option>
+        <option value="SA">
+          SA
+        </option>
+        <option value="TAS">
+          TAS
+        </option>
+        <option value="ACT">
+          ACT
+        </option>
+      </select></p><label>Postcode: <input type="text" name="postcode" pattern="[0-9-]+" maxlength="4" required="required"></label><br>
+      <p><label>Email <input type="email" name="contactemail" placeholder="name@domain.com" pattern="^.+@.+\..{2,3}$" required="required"></label></p>
+      <p><label>Phone Number: <input type="tel" name="phone_number" maxlength="12" pattern="\w{8,12}" required="required"></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>Skill List</legend> <label><input type="checkbox" name="skills[]" value="Html">HTML</label> <label><input type="checkbox" name="skills[]" value="JavaScript">JavaScript</label> <label><input type="checkbox" name="skills[]" value="CSS">CSS</label> <label><input type="checkbox" name="skills[]" value="XML">XML</label> <label><input type="checkbox" name="skills[]" value="PHP">PHP</label> <label><input type="checkbox" name="skills[]" value="MySQL">MySQL</label> <label><input type="checkbox" name="skills[]" value="Other Skills">Other Skills</label>
+      <p><label>Other Skills<br>
+      <textarea placeholder="Please enter other skills...." rows="5" cols="30"></textarea></label></p>
+    </fieldset>
+    <p><label><input type="submit" value="Apply"> <input type="reset" value="Reset"></label></p>
+  </form>
+</body>
+</html>
