@@ -59,13 +59,17 @@ body {
 
 .jobSidebar{
     width: 30%;
-    border-style: solid;   
+    border-style: solid;
+    height: 25vh;
+    position: sticky;
+    top: 0;   
 }
 
 .jobDescription {
  width: 60%;
  border-style: solid;
  text-align: left;
+ 
 }
 .jobApplication {
  text-align: left;
