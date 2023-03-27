@@ -52,6 +52,11 @@ body {
     font-size: 12px;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
 .jobSidebar{
     width: 30%;
     border-style: solid;   
@@ -64,9 +69,6 @@ body {
 }
 .jobApplication {
  text-align: left;
-}
-
-.jobIndex{
 }
 
 aside {
