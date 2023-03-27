@@ -54,6 +54,7 @@ body {
 
 .jobDescription {
 Border-style: solid;
+  width="60%;
  text-align: left;
 }
 .jobApplication {
