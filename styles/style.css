@@ -53,11 +53,15 @@ body {
 }
 
 .jobDescription {
-Border-style: solid;
+ width: 60%;
+ border-style: solid;
  text-align: left;
 }
 .jobApplication {
  text-align: left;
+}
+
+.jobIndex{
 }
 
 aside {
