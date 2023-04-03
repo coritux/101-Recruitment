@@ -74,6 +74,9 @@ body {
 .jobApplication {
  text-align: left;
  .applybody: border: 1px;  
+ .input: border-radius: 3px; 
+ border: 1px solid #000000;  
+ background-color: #efeded;
 }
 
 aside {
