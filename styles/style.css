@@ -73,13 +73,24 @@ body {
 }
 .jobApplication {
  text-align: left;
- .applybody: border: 1px;  
- .input: border-radius: 3px; 
- border: 1px solid #000000;  
- background-color: #efeded;
- .textarea: resize: none;
- .fieldset: border: 0;
- .section: background-color: #fcfcfc;
+}
+input{
+    border-radius:
+3px;
+    border: 1px solid
+#000000;  
+    background-color: #efeded;
+}
+
+textarea {
+    resize: none;
+}
+fieldset {
+    border: 0;
+}
+
+section {  
+    background-color: #fcfcfc;
     border: 3px solid #e5ecf1;
     border-radius: 12px;  
     font-size: 20px;  
@@ -87,6 +98,51 @@ body {
     margin: 30px; 
     padding: 30px;
     text-align: left; 
+     
+  } 
+  input[type=text],input[type=date],select {
+    font-size: 16px;
+    padding: 10px;
+    margin:10px 0; 
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    display:block;
+  }
+    
+  
+
+  input[type=text] {
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+  }
+  input[type=text]:hover {
+    border: 1px solid #aaa;
+  }
+  
+select{
+    border: 3px solid #efeded;
+    border-radius: 12px;
+}
+  select:hover,
+select:focus {
+  color: rgb(88, 88, 88);
+  background-color: #efeded;
+  border-bottom-color: #dfdede;
+}
+.ip2 {
+    float:left;
+ }
+label{
+    font-weight: normal;
+}
+hr{
+    opacity: 25%;
+    color: #e5ecf1;
+}
+textarea{
+  font-size: 16px;
+  width: 100%;
 }
 
 aside {
