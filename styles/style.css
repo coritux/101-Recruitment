@@ -90,7 +90,7 @@ fieldset {
     border: 0;
 }
 
-section {  
+.sec {  
     background-color: #fcfcfc;
     border: 3px solid #e5ecf1;
     border-radius: 12px;  
