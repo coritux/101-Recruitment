@@ -77,6 +77,16 @@ body {
  .input: border-radius: 3px; 
  border: 1px solid #000000;  
  background-color: #efeded;
+ .textarea: resize: none;
+ .fieldset: border: 0;
+ .section: background-color: #fcfcfc;
+    border: 3px solid #e5ecf1;
+    border-radius: 12px;  
+    font-size: 20px;  
+    font-weight: bold;  
+    margin: 30px; 
+    padding: 30px;
+    text-align: left; 
 }
 
 aside {
