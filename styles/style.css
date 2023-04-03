@@ -145,6 +145,32 @@ textarea{
   font-size: 16px;
   width: 100%;
 }
+p{
+    font-weight: normal;
+}
+dt{
+    float: left;
+}
+dd{
+    font-weight: normal;
+}
+th{
+    background-color: #e5ecf1;
+}
+table{
+    border-color: #efeded;
+    box-shadow: #e5ecf1;
+}
+td{
+    font-weight: normal;
+}
+    .line{
+    opacity: 25%;
+    color: #e5ecf1;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
 
 aside {
   width: 30%;
