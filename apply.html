@@ -4,40 +4,37 @@
   <meta charset="utf-8">
   <meta name="description" content="Page for application to job">
   <meta name="keywords" content="Apply, Personal, Details">
-  <meta name="author" content="Tafadzwa.M">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Jop Application Page | 101 Recruitment</title>
+  <meta name="author" content="5 Guys">
+  <link rel="stylesheet" href="style.css">
+  <title>Jop Application Page</title>
 </head>
-<body>
-  <h1>Welcome to 101 Recruitment</h1>
-    <p>The official home for opportunities and careers at 101 IT, the world's leading brand in technological innovation.</p>
 
-    <nav>
-        <a href="index.html">Home</a><span> | </span>
-        <a href="jobs.html">Job Openings</a><span> | </span>
-        <a href="apply.html">Submit Application</a><span> | </span>
-        <a href="enhancements.html">Enhancements</a><span> | </span>
-        <a href="about.html">About Us</a>
-    </nav>
- <section class = "jobApplication">
-  <h2>Job Application</h2>
+<body class="applybody">
+  
+  
+  <section>
+    <h2 align="center">Job Application</h2>
   <form>
     <fieldset>
       <legend>Job Type</legend>
-      <p><label>Job Reference Number: <input type="text" name="preferencenumber" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p>
+      <p><label>Job Reference Number <input type="text" id="ip1" name="preferencenumber" size="35" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p>
     </fieldset>
+    <hr>
     <fieldset>
-      <legend>Personal Details</legend>
-      <p><label>First Name: <input type="text" name="first_name" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label></p><label>Last Name: <input type="text" name="last_name" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label><br>
-      <p><label>Date of Birth: <input type="date" name="birthday" required="required"></label></p>
+      <legend>Personal Details</legend><br>
+      <div style="float:left;margin-right:20px;"><label>First Name <input type="text" id="ip2" name="first_name" size="40" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label></div>&nbsp;&nbsp;&nbsp;<div style="float:left;"><label>Last Name <input type="text" id="ip3" name="last_name" size="40" pattern="^[a-zA-Z]+$" maxlength="20" required="reqiured"></label></div><br><br><br>
+      <p><label>Date of Birth <input type="date" id="ip4" name="birthday" required="required"></label></p>
     </fieldset>
+    <hr>
     <fieldset>
-      <legend>Gender:</legend> <label><input type="radio" name="gender" value="Excel"> Male</label> <label><input type="radio" name="gender" value="Female">Female</label><label><input type="radio" name="gender" value="Other" required="required">Other</label>
+      <legend>Gender</legend><br> <label><input type="radio" name="gender" value="Excel"> Male</label>&nbsp;&nbsp;<label><input type="radio" name="gender" value="Female">Female</label>&nbsp;&nbsp;<label><input type="radio" name="gender" value="Other" required="required">Other</label>
     </fieldset>
+    <hr>
     <fieldset>
-      <legend>Contact Details:</legend> <label>Street Address: <input type="text" name="street_address" required="required" maxlength="40"></label>
-      <p><label>Suburb/town: <input type="text" name="suburb_town" required="required" maxlength="40"></label></p>
-      <p><label for="State">State</label> <select name="State" id="State">
+      <legend>Contact Details</legend><br><label>Street Address <input type="text" id="ip5" name="street_address" size="40" required="required" maxlength="40"></label>
+      <p><label>Suburb/town <input type="text" id="ip6" name="suburb_town" size="40" required="required" maxlength="40"></label></p>
+      <p><div style="float:left;margin-right:20px;"><label>Postcode <input type="text" id="ip7" name="postcode" pattern="[0-9-]+" maxlength="4" required="required"></label></div>&nbsp;&nbsp;
+        <div style="float:left;"><label for="State">State </label><select name="State" id="State">
         <option value="VIC">
           VIC
         </option>
@@ -62,16 +59,18 @@
         <option value="ACT">
           ACT
         </option>
-      </select></p><label>Postcode: <input type="text" name="postcode" pattern="[0-9-]+" maxlength="4" required="required"></label><br>
-      <p><label>Email <input type="email" name="contactemail" placeholder="name@domain.com" pattern="^.+@.+\..{2,3}$" required="required"></label></p>
-      <p><label>Phone Number: <input type="text" name="phone_number" maxlength="12" pattern="[0-9\s]+" required="required"></label></p>
+      </select></div></p><br><br>
+      <p><div style="float:left;margin-right:20px;"><label>Email <input type="text" id="ip8" name="contactemail" size="40" placeholder="name@domain.com" pattern="^.+@.+\..{2,3}$" required="required"></label></div>&nbsp;&nbsp;
+        <div style="float:left;"><label>Phone Number <input type="text" name="phone_number" size="30" id="ip9" maxlength="12" pattern="[0-9\s]+" required="required"></label></div></p>
     </fieldset>
+    <hr>
     <fieldset>
-      <legend>Skill List</legend> <label><input type="checkbox" name="skills[]" value="Html" checked>HTML</label> <label><input type="checkbox" name="skills[]" value="JavaScript">JavaScript</label> <label><input type="checkbox" name="skills[]" value="CSS">CSS</label> <label><input type="checkbox" name="skills[]" value="XML">XML</label> <label><input type="checkbox" name="skills[]" value="PHP">PHP</label> <label><input type="checkbox" name="skills[]" value="MySQL">MySQL</label> <label><input type="checkbox" name="skills[]" value="Other Skills">Other Skills</label>
+      <legend>Skill List</legend></br> <label><input type="checkbox" name="skills[]" value="Html" checked>HTML</label> <label><input type="checkbox" name="skills[]" value="JavaScript">JavaScript</label> <label><input type="checkbox" name="skills[]" value="CSS">CSS</label> <label><input type="checkbox" name="skills[]" value="XML">XML</label> <label><input type="checkbox" name="skills[]" value="PHP">PHP</label> <label><input type="checkbox" name="skills[]" value="MySQL">MySQL</label> <label><input type="checkbox" name="skills[]" value="Other Skills">Other Skills</label>
       <p><label>Other Skills<br>
-      <textarea placeholder="Please enter other skills...." rows="5" cols="30"></textarea></label></p>
+      <textarea placeholder="Please enter other skills...." id="10" rows="10" cols="50"></textarea></label></p>
     </fieldset>
-    <p><label><input type="submit" value="Apply"></label> <label><input type="reset" value="Reset"></label></p>
+    <hr>
+    <p><label><input type="submit" value="Apply"></label>&nbsp;<label><input type="reset" value="Reset"></label></p>
   </form>
   </section>
 </body>
