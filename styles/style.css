@@ -75,6 +75,34 @@ body {
  text-align: left;
 }
 /* Job Application CSS */
+#submit {
+  cursor: pointer;
+
+  border: 1.5px solid #18acf7;
+  color: #18acf7;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+#submit:hover {
+  color: #ffffff;
+  background-color: #18acf7;
+}
+#reset {
+  cursor: pointer;
+  
+  border: 1.5px solid #18acf7;
+  color: #18acf7;
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+#reset:hover {
+  color: #ffffff;
+  background-color: #18acf7;
+}
 input{
     border-radius:
 3px;
@@ -172,30 +200,35 @@ td{
     
 }
 .group_pic{
-    width: 50%;
+    width: 40%;
     border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
   border-color: #18acf7;
-}
+  border-style: solid;
+  float: right;
+  flex-basis: 40%
+  
 
- 
-#buttonclass {
-    cursor: pointer;
+}
+#button{
+    margin-left: auto;
+    margin-right: auto;
     width: 130px;
     height: 40px;
-    border: 1.5px solid #18acf7;
-    color: #18acf7;
-    transition: 0.3s ease-in-out;
-    font-size: 14px;
-    background-color: #ffffff;
 }
 
-#buttonclass:hover {
-    color: #ffffff;
-    background-color: #18acf7;
+figure{
+    float: right;
+
 }
 
+.dl>img{
+    float: right;
+    margin-bottom: 0.5em;
+}
+#h2{
+    text-align: center;
+}
 aside {
   width: 30%;
   padding-left: 15px;
