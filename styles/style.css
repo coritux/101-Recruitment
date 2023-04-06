@@ -232,6 +232,9 @@ figure{
 #h2{
     text-align: center;
 }
+.enhancements{
+  text-align: left;
+}
 aside {
   width: 30%;
   padding-left: 15px;
