@@ -186,8 +186,11 @@ th{
     background-color: #e5ecf1;
 }
 table{
+    border-color: #efeded;
+    border: solid 10px;
     border-color: #e5ecf1;
-    box-shadow: #e5ecf1;
+    margin-left: auto;
+    margin-right: auto;
 }
 td{
     font-weight: normal;
