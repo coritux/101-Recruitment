@@ -171,15 +171,9 @@ td{
     margin-right: 100px;
     
 }
-}
-img{
-    width: 50%;
-    border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  border-color: #18acf7;
+
+
  
-}
 #buttonclass {
     cursor: pointer;
     width: 130px;
