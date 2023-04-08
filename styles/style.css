@@ -182,9 +182,6 @@ dt{
 dd{
     font-weight: normal;
 }
-th{
-    background-color: #e5ecf1;
-}
 table{
     border-color: #efeded;
     border: solid 10px;
@@ -192,8 +189,14 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+th{
+    background-color: #e5ecf1;
+}
 td{
-    font-weight: normal;
+     font-weight: normal;
+    background-color: #EFEFEF;
+    border: solid 1px;
+    border-color: #efeded;
 }
     .line{
     opacity: 25%;
