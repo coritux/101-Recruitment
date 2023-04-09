@@ -31,7 +31,7 @@ background colour specified in hexadecimal format
 */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 h1 {
@@ -48,10 +48,8 @@ nav {
 }
 
 body {
-    background-color: #f9f9f9;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    font-size: 12px;
 }
 
 .wrapper{
@@ -60,16 +58,11 @@ body {
 }
 
 .jobSidebar{
-    width: 25%;
+    width: 30%;
     border-style: solid;
     height: 25vh;
     position: sticky;
     top: 0;   
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
 }
 
 .jobDescription {
@@ -180,6 +173,9 @@ textarea{
   font-size: 16px;
   width: 100%;
 }
+p{
+    font-weight: normal;
+}
 dt{
     float: left;
 }
@@ -242,15 +238,19 @@ figure{
 .enhancement{
   text-align: left;
 }
-#aside {
-
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
 }
 
 footer {
-    background-color: rgb(41, 41, 41);
-    height: 250px;
-    width: 100%;
-    font-size: 13px;
+    color: rgb(110, 110, 110);
+    font-size: 10px;
+  margin-bottom: 0;
 }
 
 .flex-container {
@@ -263,531 +263,4 @@ footer {
     padding: 10px;
     width: 80em;
     font-size: 12px;
-}
-
-* {
-    font-family: 'Lato', sans-serif;
-}
-
-#darkmode {
-    margin-top: 28px;
-    margin-right: 50px;
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
-}
-
-input[type="checkbox"] {
-    content: url(moon.svg);
-    appearance: none;
-    display: block;
-    width: 150px;
-    height: 150px;
-}
-
-input[type="checkbox"]:checked {
-    content: url(sun.svg);
-}
-
-a.link:hover {
-    color: #007fee;
-}
-
-a.link {
-    color: rgb(45, 45, 45);
-    text-decoration: none;
-    font-size: 15px;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
-    text-decoration: none;
-    position: relative;
-}
-      
-a.link:after {
-    bottom: -4px;
-    content: "";
-    height: 1px;
-    left: 0;
-    position: absolute;
-    background: #007fee;
-    opacity: 0.6;
-    transition: width 0.3s ease 0s, opacity 0.3s ease 0s;
-    width: 0;
-}
-      
-a.link:hover:after {
-    width: 100%;
-    opacity: 0.9;
-}
-
-body {
-    background-color: #f9f9f9;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#container {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-}
-  
-#navigation {
-    width: 100%;
-    height: 88px;
-    background-color: #ffffff;
-    transition: 0.2s;
-    display: flex;
-    border-bottom:1px solid #e5ecf1;
-}
-
-ul.navigation {
-    margin: auto;
-    margin-left: 180px;
-    text-align: center;
-    list-style-type: none;  
-}
-
-#welcome {
-    background-color: #efefef;
-    width: 100vw;
-    height: 25px;
-    margin: auto;
-    text-align: center;
-}
-
-img.logo {
-    margin-left: 100px;
-    margin-top: 15px;
-}
-
-li#nav {
-    display: inline;
-    margin-left: 20px;
-}
-
-#introduction {
-    background-color: #fdfdfd;
-    height: 500px;
-}
-
-#history-body {
-    color: #ffffff;
-    margin-left: 100px;
-    width: 800px;
-}
-
-#testimonials {
-    background-color: #efefef;
-    height: 700px;
-    box-sizing: border-box;
-    display: flex;
-    flex: 33.33%;
-}
-
-#testimonials-img {
-    display: block;
-}
-
-#testimonial-1 {
-    text-align: center;
-    width: 1000px;
-}
-
-#testimonial-1-header {
-    font-weight: bold;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-#testimonial-1-body {
-    width: 600px;
-    text-align: center;
-    margin-left: 190px;
-}
-
-#testimonial-2 {   
-  background-color: #f3f3f3;
-  box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
-  border-radius: 25px;
-  padding: 20px; 
-  width: 375px;
-  height: 150px;  
-  font-size: 15px;
-  content: '';
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 560px;
-  margin-top: 250px;
-}
-
-#testimonial-3 {  
-    background-color: #f3f3f3;  
-  box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
-  border-radius: 25px;
-  padding: 20px; 
-  width: 375px;
-  height: 150px;  
-  font-size: 15px;
-  content: '';
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 1000px;
-  margin-top: 250px;
-}
-
-  #testimonial-4 { 
-    background-color: #f3f3f3;   
-    box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
-  border-radius: 25px;
-  padding: 20px; 
-  width: 375px;
-  height: 150px;  
-  font-size: 15px;
-  content: '';
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 560px;
-  margin-top: 465px;
-  }
-
-  #testimonial-5 {  
-    background-color: #f3f3f3;  
-    box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
-  border-radius: 25px;
-  padding: 20px; 
-  width: 375px;
-  height: 150px;  
-  font-size: 15px;
-  content: '';
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 1000px;
-  margin-top: 465px;
-  }
-
-p#cta-title {
-    margin: auto;
-    font-size: 22px;
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: 50px;
-    color: #ffffff;
-}
-
-p#cta-body {
-    margin: auto;
-    margin-left: 150px;
-    margin-top: 10px;
-    color: #ffffff;
-}
-
-#call-to-action {
-    background-color: #18acf7;
-    margin-bottom: 0px;
-}
-
-h1#intro-title {
-    margin: 0;
-    padding-top: 88px;
-    color: rgb(45, 45, 45);
-    margin-left: 200px;
-    margin-bottom: 10px;
-}
-
-p.intro-body {
-    color: rgb(45, 45, 45);
-    margin-left: 200px;
-    padding-top: 0px;
-    margin-top: 0px;
-    width: 650px;
-}
-
-img#introduction {
-    float: right;
-    height: 500px;
-    width: 700px;
-    margin: 0;
-}
-
-#buttonclass {
-    cursor: pointer;
-    margin-left: 200px;
-    width: 130px;
-    height: 40px;
-    border: 1.5px solid #18acf7;
-    color: #18acf7;
-    transition: 0.3s ease-in-out;
-    font-size: 14px;
-    background-color: #ffffff;
-}
-
-#buttonclass:hover {
-    color: #ffffff;
-    background-color: #18acf7;
-}
-
-#cta-buttonclass {
-    cursor: pointer;
-    margin-left: 150px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    width: 130px;
-    height: 40px;
-    border: 1.5px solid #ffffff;
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    font-size: 14px;
-    background-color: #18acf7;
-}
-
-#cta-buttonclass:hover {
-    color: #18acf7;
-    background-color: #ffffff;
-}
-
-#rcorners2 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
-}
-
-#history {
-    height: 425px;
-    width: 100%;
-    background-image: linear-gradient(#45b8f2, #14B1FF);
-}
-
-#header-history {
-    margin-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    font-size: 30px;
-    color: #ffffff;
-    margin-top: 0px;
-}
-
-#footer-main {
-    width: 350px;
-    display: inline-block;
-    position: relative;
-}
-
-#footer-links {
-    width: 190px;
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
-
-#footer-location {
-    width: 225px;
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
-
-#footer-socials {
-    width: 250px;
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
-
-#social-icon-group {
-    margin-left: 37px;
-}
-
-#social-icon {
-    margin-left: 10px;
-}
-
-#footer-logo {
-    margin-left: 70px;
-    margin-top: 30px;
-}
-
-.footer-sub {
-    color: white;
-    margin-left: 75px;
-    margin-top: 18px;
-}
-
-.footer-section-title {
-    font-size: 16px;
-    color: white;
-    width: 60%;
-    margin-left: 45px;
-    padding-top: 15px;
-}
-
-#footer-nav {
-   list-style-type: none; 
-   margin-left: 5px;
-}
-
-.footer-nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 8px;
-}
-
-.star-rating {
-    color: #fbd100;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    user-select: none;
-}
-
-#star-rating-header {
-    color: #fbd100;
-    font-size: 18px;
-    user-select: none;
-}
-
-.testimonial-title {
-    margin-top: 6px;
-    font-weight: bold;
-}
-
-#why-us {
-    height: 420px;
-    text-align: center;
-}
-
-#why-us-title {
-    padding-top: 10px;
-}
-
-.why-us-card {
-    height: 200px;
-    display: inline-block;
-    width: 350px;
-    margin-left: 30px;
-    margin-top: 35px;
-}
-
-.why-us-body-title {
-    font-weight: bold;
-}
-
-.testimonial-introduction {
-    margin-top: 5px;
-    margin-bottom: 6px;
-}
-
-#down-arrow {
-    margin-top: 15px;
-}
-
-#company-benefits {
-    height: 400px;
-    width: 100%;
-    background-image: linear-gradient(#45b8f2, #14B1FF);
-}
-
-#benefits-header {
-    color: #ffffff;
-    text-align: left;
-    font-size: 30px;
-    margin-left: 55px;
-    margin-top: 0px;
-    padding-top: 35px;
-}
-
-#benefits-list {
-    color: #ffffff;
-    text-align: left;
-    margin-top: 35px;
-    margin-left: 35px;
-    width: 700px;
-}
-
-#office-building {
-    float: right;
-}
-
-#many-more {
-    color: #ffffff;
-    margin-left: 60px;
-}
-
-#company-values {
-    height: 400px;
-    width: 100%;
-    background-color: #ffffff;
-}
-
-#company-caption {
-    text-align: left;
-    color: #ffffff;
-    margin-top: 10px;
-    width: 400px;
-    font-size: 14px;
-}
-
-#office-top {
-    float:right;
-    margin-right: 150px;
-    margin-top: 70px;
-  background-color:#fff;
-  border: 1px solid #18acf7;
--webkit-box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    3px 3px 4px rgba(50, 50, 50, 0.75);
-box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
-}
-
-#company-example {
-    border: 1px solid #ffffff;
-    margin-right: 55px;
-    margin-top: 40px;
-}
-
-#img-caption {
-    float: right;
-}
-
-.author {
-    margin-top: 8px;
-}
-
-.testimonial-body {
-    margin-bottom: 0px;
-}
-
-#company-values {
-    height: 400px;
-    text-align: center;
-}
-
-#company-values-container {
-    height: 200px;
-    display: inline-block;
-    width: 775px;
-    margin-top: 35px;
-}
-
-#learn-more {
-    padding-top: 10px;
-}
-
-#about-us-link {
-    text-decoration: none;
-    color: #18acf7;
-}
-
-.footer-location-body {
-    margin-left: 45px;
-    color: #ffffff;
 }
