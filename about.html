@@ -11,17 +11,38 @@
   <title>Home | 101 Recruitment</title>
 </head>
 <body>
-  <h1>Welcome to 101 Recruitment</h1>
-  <p>The official home for opportunities and careers at 101 IT, the world's leading brand in technological innovation.</p>
-  <nav>
-    <a href="index.html">Home</a> <span>|</span> <a href="jobs.html">Job Openings</a> <span>|</span> <a href="apply.html">Submit Application</a> <span>|</span> <a href="enhancements.html">Enhancements</a> <span>|</span> <a href="about.html">About Us</a>
-  </nav>
-  <p>The best place to find any and all jobs relating to web development and information technology, We specialise in finding the right job for the right people!</p>
+   <div id="container">
+        <nav>
+            <div id="navigation">
+                <a href="index.html" title="Return to Homepage"><img src="logo.png" class="logo" alt="101 IT Company Logo" width="105px" height="60px"></a>
+                <ul id="navigation">
+                    <li id="nav">
+                        <a href="index.html" class="link">Home</a>
+                    </li>
+                    <li id="nav">
+                        <a href="jobs.html" class="link">Job Openings</a>
+                    </li>
+                    <li id="nav">
+                        <a href="apply.html" class="link">Submit Application</a>
+                    </li>
+                    <li id="nav">
+                        <a href="services.html" class="link">Services</a>
+                    </li>
+                    <li id="nav">
+                        <a href="enhancements.html" class="link">Enhancements</a>
+                    </li>
+                    <li id="nav">
+                        <a href="about.html" class="link">About Us</a>
+                    </li>
+                 </ul>
+            </div>
+        </nav>
+    </div>
   <div class="sec">
     <h2 id="h2">About Our Group</h2>
     <hr class="line">
     <div class="dl">
-      <img src="styles/images/Group_pic-resized.jpg" class="group_pic" alt="Picture of 101 Recruitment">
+      <img src="styles/images/Group_pic-resized.jpg" class="group_pic" alt="Picture of 101 Recruitment" title="Our Group. From left to right: TJ, Luke, Louis, Rhys and Ruhul.">
       <dl>
         <dt>Group Name:&nbsp;</dt>
         <dd>Five Guys</dd>
@@ -32,19 +53,8 @@
         <dt>Course:&nbsp;</dt>
         <dd>COS10026-Computing Technology Inquiry 2023 Semester 1 Project</dd>
       </dl>
-    </div><br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2>Timetable</h2>
+    </div>
+    <h2 id="timetable-header">Timetable</h2>
       <table>
         <tr>
           <th>Day</th>
@@ -79,14 +89,17 @@
       </table>
     <br>
     <br>
-    <p id="button"><a href="mailto:%20ruhulislamwasif@gmail.com">Mail Us</a></p>
+    <p id="button"><a href="mailto:ruhulislamwasif@gmail.com">Email Us</a></p>
     <h2>Group Profile:</h2>
     <p>The official home for opportunities and careers at 101 IT, the world's leading brand in technological innovation.</p>
     <hr>
     <h3>Louis</h3>
     <h4>Programming Skills:</h4>
+	<p>Whilst quite limited, I have accumulated experience and knowledge in a variety of programming languages such as Visual C#, MySQL, PHP, HTML and CSS, the latter of which has been of particular help during this subject. Additionally, I have enjoyed tinkering with more hardware-oriented electronic devices such as the Arduino, which utilises a subset of the C programming language.</p>
     <h4>Working experience:</h4>
+	<p>Although I have yet to hold any formal working experience when it comes to programming, I have created multiple projects in my free time such as a text-based instant messaging application, file storage website and a browser-based user account system. After advancing my programming knowledge further, I endeavour to apply it in a professional workplace setting.</p>
     <h4>Interests:</h4>
+	<p>Programming has undoubtedly been my primary hobby of interest, having been introduced to it in primary school through MIT's Scratch. However, I am also highly interested in music production and want to study music theory in my free time heading into the future. Additionally, I have had a long-standing passion for geography, global culture and flags.</p>
     <hr>
     <h3>Rhys</h3>
     <h4>Programming Skills:</h4>
@@ -117,5 +130,49 @@
     <h4>Interests:</h4>
     <p>My interests, are sports especially basketball, and video games which was what my arcade game was made on being a sport game.</p>
   </div>
+  <footer>
+        <div id="footer-main">
+            <img src="logodarkmode.png" title="Company Logo" name="logo-footer" width="115" height="65" id="footer-logo">
+            <p class="footer-sub">Proudly delivering unique and industry-leading solutions to companies around the world.</p>
+        </div>
+        <div id="footer-links">
+                <p class="footer-section-title">Links</p>
+                <ul id="footer-nav">
+                    <li>
+                        <a href="index.html" class="footer-nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="jobs.html" class="footer-nav-link">Job Openings</a>
+                    </li>
+                    <li>
+                        <a href="apply.html" class="footer-nav-link">Submit Application</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="footer-nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="enhancements.html" class="footer-nav-link">Enhancements</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="footer-nav-link">About Us</a>
+                    </li>
+                 </ul>
+        </div>
+        <div id="footer-location">
+            <p class="footer-section-title">Our Location</p>
+            <p class="footer-location-body">Swing by our office:</p>
+            <p class="footer-location-body">427-451 Burwood Rd, Hawthorn, VIC 3122, Australia</p>
+        </div>
+        <div id="footer-socials">
+            <p class="footer-section-title">Check out our Socials</p>
+            <div id="social-icon-group">
+                <a href="https://facebook.com/101-Recruitment"><img src="facebook.png" id="social-icon" title="Facebook" width="16px" height="16px"></a>
+                <a href="https://twitter.com/101-Recruitment"><img src="twitter.png" id="social-icon" title="Twitter" width="16px" height="16px"></a>
+                <a href="https://instagram.com/101-Recruitment"><img src="instagram.png" id="social-icon" title="Instagram" width="16px" height="16px"></a>
+                <a href="https://youtube.com/101-Recruitment"><img src="youtube.png" id="social-icon" title="YouTube" width="16px" height="16px"></a>
+            </div>
+        </div>
+        <p id="footer-sub-copy">Copyright &copy; 2023 101 IT. All rights reserved.</p>
+    </footer>
 </body>
 </html>
