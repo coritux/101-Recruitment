@@ -26,26 +26,43 @@ small font and centred in the footer..
 </head>
 	
 <body>
-    <h1>Welcome to 101 Recruitment</h1>
-        <p>The official home for opportunities and careers at 101 IT, the world's leading brand in technological innovation.</p>
-
+     <div id="container">
         <nav>
-            <a href="index.html">Home</a><span> | </span>
-            <a href="jobs.html">Job Openings</a><span> | </span>
-            <a href="apply.html">Submit Application</a><span> | </span>
-            <a href="enhancements.html">Enhancements</a><span> | </span>
-            <a href="about.html">About Us</a>
+            <div id="navigation">
+                <a href="index.html" title="Return to Homepage"><img src="logo.png" class="logo" alt="101 IT Company Logo" width="105px" height="60px"></a>
+                <ul id="navigation">
+                    <li id="nav">
+                        <a href="index.html" class="link">Home</a>
+                    </li>
+                    <li id="nav">
+                        <a href="jobs.html" class="link">Job Openings</a>
+                    </li>
+                    <li id="nav">
+                        <a href="apply.html" class="link">Submit Application</a>
+                    </li>
+                    <li id="nav">
+                        <a href="services.html" class="link">Services</a>
+                    </li>
+                    <li id="nav">
+                        <a href="enhancements.html" class="link">Enhancements</a>
+                    </li>
+                    <li id="nav">
+                        <a href="about.html" class="link">About Us</a>
+                    </li>
+                 </ul>
+            </div>
         </nav>
+    </div>
 	
     <div class="wrapper">
 	    <div class = "jobDescription">
-		    <section>
+		    <section class="jobInfo">
 			    <h2 id="00001">00001 - Front-End Web Developer</h2>
 			    <hr>
-                Melbourne, Australia<br>
-        		Web Development<br>
-		    	Full Time<br>
-			    AU$75,000 - 95,000/yr<br>
+                Location: Melbourne, Australia<br>
+        		Category: Web Development<br>
+		    	Type: Full Time<br>
+			    Salary: AU$75,000 - 95,000/yr<br>
 
         		<h3>Who are we looking for:</h3>
 			    <p>We are looking for a Front-End Web Developer to join the Web Development department of our online management services company.
@@ -57,20 +74,20 @@ small font and centred in the footer..
 		    	<p>As a member of our web development you will be responsible for liasing with the customer to ensure quality across our stable of projects. You will be responsible for the forward facing elements of these projects, both past and future.
 			    </p>
 			
-    			<ul>
+    			<ul class="job-desc-list">
 	    			<li>Partnering with the wider digital team to own and build responsive website content fit for purpose and objectives.   </li>
 		    		<li>Test and evolve design functionality and optimising the experience for customers.  </li>
 			    	<li>Deliver experiences that are compliant to the WCAG AA 2.1 accessibility standards.</li>
 			    </ul>
 	
     			<h3>What is expected of applicants:</h3>
-	    		<ul>
+	    		<ul class="job-desc-list">
 		    		<li>You will be an Australian Citizen, Permanent Resident or possess the correct working Visa.</li>
 			    	<li>Practical with a modern front-end JavaScript framework.</li>
     			</ul>
 	
 	    		<h3>Skills and Expertise</h3>
-		    	<ul>
+		    	<ul class="job-desc-list">
 			    	<li>Visual Studio .NET environment using GIT within Azure DevOps</li>
 				    <li>Strong debugging skills, with the ability to resolve, suggest and implement fixes</li>
     				<li>Solid hands-on knowledge of HTML, CSS, JavaScript and JSON</li>
@@ -78,23 +95,23 @@ small font and centred in the footer..
 		    	</ul>
 	
     			<h3>Advantageous skills</h3>
-	    		<ul>
+	    		<ul class="job-desc-list">
 		    		<li>Experience working with Adobe Photoshop</li>
 			    </ul>
 				
     			<h3>Sounds like your new job? Apply below:<br>
-	    		<a href="apply.html">Submit Application</a>
+	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
 	
     		</section>
-	    	<section>	
+	    	<section class="jobInfo">	
 		    	<hr>
 			    <h2 id="00002">00002 - Back-End Web Developer</h2>
     			<hr>
-	    		Melbourne, Australia<br>
-		    	Web Development<br>
-			    Full Time<br>
-    			AU$75,000 - 95,000/yr<br>
+	    		Location: Melbourne, Australia<br>
+        		Category: Web Development<br>
+		    	Type: Full Time<br>
+			    Salary: AU$75,000 - 95,000/yr<br>
 
     			<h3>Who are we looking for:</h3>
 	    		<p>
@@ -106,12 +123,12 @@ small font and centred in the footer..
 		    	</p>
 
     			<h3>What is expected of applicants:</h3>
-	    		<ul>
+	    		<ul class="job-desc-list">
 		    		<li>You will be an Australian Citizen, Permanent Resident or possess the correct working Visa.</li>
 			    	<li>Practical with a back-end language and framework</li>
     			</ul>
 	    		<h3>Skills and Expertise</h3>
-		    	<ul>
+		    	<ul class="job-desc-list">
 			    	<li>Strong commercial experience across the LAMP stack – backend, PHP applications, HTML, CSS, Javascript, Bootstrap etc</li>
 				    <li>Familiarity with database systems (MySQL, MariaDB) and their use in web applications</li>
     				<li>Visual Studio .NET environment using GIT within Azure DevOps</li>
@@ -122,17 +139,16 @@ small font and centred in the footer..
     			</ul>
 	
     			<h3>Sounds like your new job? Apply below:<br>
-	    		<a href="apply.html">Submit Application</a>
+	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
     		</section>
-	    	<section>
+	    	<section class="jobInfo">
 		    	<hr>
 			    <h2 id="00003">00003 - Full Stack Web Developer</h2>
-    			<hr>
-	    		Melbourne, Australia<br>
-		    	Web Development<br>
-			    Full Time<br>
-			    AU$75,000 - 95,000/yr<br>
+    			Location: Melbourne, Australia<br>
+        		Category: Web Development<br>
+		    	Type: Full Time<br>
+			    Salary: AU$75,000 - 95,000/yr<br>
 	
     			<h3>Position Overview</h3>
 	    		<p>We are looking for a Full Stack Web Developer to lead the Web Development department of our online management services company.
@@ -142,7 +158,7 @@ small font and centred in the footer..
 	    		<p>As a member of our web development you will be responsible for liasing with the customer to ensure quality across our stable of projects. You will be responsible for the forward facing elements of these projects, both past and furure.
 		    	</p>
 		
-			    <ul>
+			    <ul class="job-desc-list">
     				<li>Design, build and maintain high-performance, scalable web applications</li>
 	    			<li>Own the technical development and roadmap for our proprietary systems</li>
 		    		<li>Collaborate with cross-functional teams to identify and implement new features</li>
@@ -152,68 +168,71 @@ small font and centred in the footer..
 		    	</ul>
 
     			<h3>What is expected of applicants:</h3>
-	    		<ul>
+	    		<ul class="job-desc-list">
 		    		<li>You will be an Australian Citizen, Permanent Resident or possess the correct working Visa.</li>
-			    	<Li>Experience with the full system development lifecycle (design, develop, maintain, support).</li>
+			    	<li>Experience with the full system development lifecycle (design, develop, maintain, support).</li>
                 </ul>
 		
     			<h3>Sounds like your new job? Apply below:<br>
-	    		<a href="apply.html">Submit Application</a>
+	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
 		    </section>
     	</div>
 	    <aside class = "jobSidebar">
-		    <hr>
-			Current Job Openings<br>
-    		<hr>
+			<p id="job-openings-header">Current Job Openings</p>
+    		<hr id="jobs-hr">
 			<ol>
-				<li><a href="#00001"> 00001 - Front-End Web Developer </a> </li>
-	    		<li><a href="#00002"> 00002 - Back-End Web Developer </a> </li>
-				<li><a href="#00003"> 00003 - Full stack Web Developer </a> </li>
+				<li class="job-list"><a href="#00001" id="job-00001"> 00001 - Front-End Web Developer </a> </li>
+	    		<li class="job-list"><a href="#00002" id="job-00002"> 00002 - Back-End Web Developer </a> </li>
+				<li class="job-list"><a href="#00003" id="job-00003"> 00003 - Full stack Web Developer </a> </li>
 			</ol>
 		</aside>
     </div>
 
 <!---  -->
     <footer>
-		We are 101 IT.
-		<div class="flex-container">
-			<div>
-<!---
-				<u>Site Navigation</u>	
-            	<br>
-				<a href="index.html">Home</a><span> | </span>
-    	        <a href="jobs.html">Job Openings</a><span> | </span>
-        	    <a href="apply.html">Submit Application</a><span> | </span>
-	            <a href="enhancements.html">Enhancements</a><span> | </span>
-    	        <a href="about.html">About Us</a>
--->
-				<ul>
-				<li>Site Navigation</li>	
-				<li><a href="index.html">Home</a></li>
-    	        <li><a href="jobs.html">Job Openings</a></li>
-        	    <li><a href="apply.html">Submit Application</a></li>
-	            <li><a href="enhancements.html">Enhancements</a></li>
-    	        <li><a href="about.html">About Us</a></li>
-			</ul>
-		</div>
-			<br>
-			<div>
-				Swing by our office @ <br>
-				427-451 Burwood Rd, <br>
-				Hawthorn, VIC 3122, <br>
-				AUSTRALIA <br>
-			</div>
-			<div>
-				Contact us @<br> 
-				<a href="">contact@101_IT.com.au</a> 
-			</div>
-			<div>
-				Icons for social media contacts
-			</div>
-		</div>
-		<hr>
-		<p>Copyright &copy; 2023 101 IT Pty Ltd. All rights reserved.</p>
+        <div id="footer-main">
+            <img src="logodarkmode.png" title="Company Logo" name="logo-footer" width="115" height="65" id="footer-logo">
+            <p class="footer-sub">Proudly delivering unique and industry-leading solutions to companies around the world.</p>
+        </div>
+        <div id="footer-links">
+                <p class="footer-section-title">Links</p>
+                <ul id="footer-nav">
+                    <li>
+                        <a href="index.html" class="footer-nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="jobs.html" class="footer-nav-link">Job Openings</a>
+                    </li>
+                    <li>
+                        <a href="apply.html" class="footer-nav-link">Submit Application</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="footer-nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="enhancements.html" class="footer-nav-link">Enhancements</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="footer-nav-link">About Us</a>
+                    </li>
+                 </ul>
+        </div>
+        <div id="footer-location">
+            <p class="footer-section-title">Our Location</p>
+            <p class="footer-location-body">Swing by our office:</p>
+            <p class="footer-location-body">427-451 Burwood Rd, Hawthorn, VIC 3122, Australia</p>
+        </div>
+        <div id="footer-socials">
+            <p class="footer-section-title">Check out our Socials</p>
+            <div id="social-icon-group">
+                <a href="https://facebook.com/101-Recruitment"><img src="facebook.png" id="social-icon" title="Facebook" width="16px" height="16px"></a>
+                <a href="https://twitter.com/101-Recruitment"><img src="twitter.png" id="social-icon" title="Twitter" width="16px" height="16px"></a>
+                <a href="https://instagram.com/101-Recruitment"><img src="instagram.png" id="social-icon" title="Instagram" width="16px" height="16px"></a>
+                <a href="https://youtube.com/101-Recruitment"><img src="youtube.png" id="social-icon" title="YouTube" width="16px" height="16px"></a>
+            </div>
+        </div>
+        <p id="footer-sub-copy">Copyright &copy; 2023 101 IT. All rights reserved.</p>
     </footer>
 </body>
 </html>
