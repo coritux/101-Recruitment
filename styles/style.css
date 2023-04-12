@@ -766,6 +766,11 @@ figure{
 #h2{
     text-align: center;
 }
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+	}
 
 #enhancements-header {
 	margin-top: 0px;
