@@ -620,6 +620,7 @@ box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
   color: #ffffff;
   background-color: #18acf7;
 }
+
 input{
     border-radius:
 3px;
@@ -627,13 +628,16 @@ input{
 #000000;  
     background-color: #efeded;
 }
+/*All input will be styled with border-radius 3px to make the border a little rounded and not squared. With the border color black and background color light grey */ 
 
 textarea {
     resize: none;
 }
+/*textarea size will be fixed and wont be able to be resized by the user. */ 
 fieldset {
     border: 0;
 }
+/*All fieldset borders are removed */ 
 
 .sec {  
     background-color: #fcfcfc;
@@ -644,6 +648,7 @@ fieldset {
     margin: 30px; 
     padding: 30px;
     text-align: left; 
+/*.sec was the div of the page, giving it a different appearance compared to rest of the page. Changing the background color to a very light grey, with a border and a radius to make the border corners rounded. */ 
      
   } 
   #sec-services {  
@@ -668,7 +673,7 @@ fieldset {
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     display:block;
   }
-    
+  /*Using grouping selector for the selected elements, creating extra space around the element with padding and margin, and also removing the border and adding a box shadow, to add a shadow effect. */ 
   
 
   input[type=text] {
@@ -676,23 +681,24 @@ fieldset {
     border: 1px solid #eee;
     transition: .3s border-color;
   }
+/* Making a change to the input with the text type, giving it a border, and adding a transition of .3s for when a cursor hovers over it */ 
   input[type=text]:hover {
     border: 1px solid #aaa;
   }
+/*This being related to "input[type=text]" block, adding a hover, for when a cursor hovers over the input the border transitions from #eee to #aaa in .3s */ 
   
 select{
     border: 3px solid #efeded;
     border-radius: 12px;
 }
+
   select:hover,
 select:focus {
   color: rgb(88, 88, 88);
   background-color: #efeded;
   border-bottom-color: #dfdede;
 }
-.ip2 {
-    float:left;
- }
+
 label{
     font-weight: normal;
 }
