@@ -691,34 +691,41 @@ select{
     border: 3px solid #efeded;
     border-radius: 12px;
 }
-
+/*the border having the color #efeded, with border radius making the corner border rounded*/
   select:hover,
 select:focus {
-  color: rgb(88, 88, 88);
+  color: #585858;
   background-color: #efeded;
   border-bottom-color: #dfdede;
 }
+/*grouping selector being used with select:hover and select:focus which will change the select appearance to the color "#585858" with the background color of #efeded*/
 
 label{
     font-weight: normal;
 }
+/*making the text of the label of the input normal font which was original bold*/
 hr{
     opacity: 25%;
     color: #e5ecf1;
 }
+/*making the horizontal row "hr" less prominent by changing the opacity, and changing the color to #e5ecf1*/
 textarea{
   font-size: 16px;
   width: 100%;
 }
+/*the text area that will be entered in 16px*/
 p{
     font-weight: normal;
 }
+/*All paragraphs font will be normal weight*/
 dt{
     float: left;
 }
+/*dt will be floated to the left so it can be on the left of dd */
 dd{
     font-weight: normal;
 }
+/*font will be normal weight*/
 table{
     border-color: #efeded;
     border: solid 10px;
@@ -726,22 +733,25 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+/*adding a border to the table adding color and margins to make the table in the center*/
 th{
     background-color: #e5ecf1;
 }
+/*table header "th" will be the background-color #e5ecf1*/
 td{
      font-weight: normal;
     background-color: #EFEFEF;
     border: solid 1px;
     border-color: #efeded;
 }
+/*td text font weight will be changed from bold to normal, with the a background color change */
     .line{
     opacity: 25%;
     color: #e5ecf1;
     margin-left: 100px;
-    margin-right: 100px;
-    
+    margin-right: 100px; 
 }
+/*.line is the id of the hr in the about.html making the line shorter with the margins*/
 .group_pic{
     width: 40%;
     border: 1px solid #ddd;
@@ -750,9 +760,8 @@ td{
   border-style: solid;
   float: right;
   flex-basis: 40%
-  
-
 }
+
 #button{
     margin-left: auto;
     margin-right: auto;
