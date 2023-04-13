@@ -639,7 +639,7 @@ fieldset {
 }
 /*All fieldset borders are removed */ 
 
-#sec {  
+.sec {  
     background-color: #fcfcfc;
     border: 3px solid #e5ecf1;
     border-radius: 12px;  
@@ -745,7 +745,7 @@ td{
     border-color: #efeded;
 }
 /*td text font weight will be changed from bold to normal, with the a background color change */
-    .line{
+    #line{
     opacity: 25%;
     color: #e5ecf1;
     margin-left: 100px;
@@ -774,7 +774,7 @@ figure{
 
 }
 
-.dl>img{
+#dl>img{
     float: right;
     margin-bottom: 0.5em;
 }
