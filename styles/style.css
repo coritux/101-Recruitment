@@ -639,7 +639,7 @@ fieldset {
 }
 /*All fieldset borders are removed */ 
 
-.sec {  
+#sec {  
     background-color: #fcfcfc;
     border: 3px solid #e5ecf1;
     border-radius: 12px;  
@@ -648,7 +648,7 @@ fieldset {
     margin: 30px; 
     padding: 30px;
     text-align: left; 
-/*.sec was the div of the page, giving it a different appearance compared to rest of the page. Changing the background color to a very light grey, with a border and a radius to make the border corners rounded. */ 
+/*#sec was the div of the page, giving it a different appearance compared to rest of the page. Changing the background color to a very light grey, with a border and a radius to make the border corners rounded. */ 
      
   } 
   #sec-services {  
@@ -778,7 +778,7 @@ figure{
     float: right;
     margin-bottom: 0.5em;
 }
-#h2{
+.h2{
     text-align: center;
 }
 
