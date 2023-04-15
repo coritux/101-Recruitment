@@ -600,11 +600,13 @@ box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
   background-color: #ffffff;
   margin-right: 5px;
 }
+/*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 
 #submit:hover {
   color: #ffffff;
   background-color: #18acf7;
 }
+/*when cursor hovers over the submit button on apply.html the original appearance will transition to the color #ffffff and background color of #18acf7*/
 #reset {
   cursor: pointer;
   width: 80px;
@@ -615,12 +617,12 @@ box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
   font-size: 14px;
   background-color: #ffffff;
 }
-
+/*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 #reset:hover {
   color: #ffffff;
   background-color: #18acf7;
 }
-
+/*when cursor hovers over the reset button on apply.html the original appearance will transition to the color #ffffff and background color of #18acf7*/
 input{
     border-radius:
 3px;
@@ -770,19 +772,16 @@ td{
     height: 40px;
 }
 /*mailto link will be in the center using margins*/
-/*figure{
-    float: right;
 
-}
-*/
 #dl>img{
     float: right;
     margin-bottom: 0.5em;
 }
+/*this resulting in the image being floated to the right of the definition list*/
 .h2{
     text-align: center;
 }
-
+/*making header 2 elements with the class h2 aligined in the center*/
 #enhancements-header {
 	margin-top: 0px;
 	text-align: center;
