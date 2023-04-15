@@ -588,7 +588,7 @@ box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
 .jobApplication {
  text-align: left;
 }
-/* Job Application CSS */
+/*All of the job application page text will be aligned to the left*/
 #submit {
   cursor: pointer;
 	width: 80px;
@@ -761,6 +761,7 @@ td{
   float: right;
   flex-basis: 40%
 }
+/*the picture width is decreased to fit the page with a added border, with rounded corners which was done by the border radius and floated to the right of the definition list.*/
 
 #button{
     margin-left: auto;
@@ -768,12 +769,12 @@ td{
     width: 130px;
     height: 40px;
 }
-
-figure{
+/*mailto link will be in the center using margins*/
+/*figure{
     float: right;
 
 }
-
+*/
 #dl>img{
     float: right;
     margin-bottom: 0.5em;
