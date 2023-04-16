@@ -879,15 +879,18 @@ td{
 }
 
 .job-buttonclass {
-    cursor: pointer;
+        cursor: pointer;
 	margin-top: 10px;
     width: 150px;
     height: 40px;
     border: 1.5px solid #18acf7;
+    border-radius: 4px;
     color: #18acf7;
     transition: 0.3s ease-in-out;
     font-size: 14px;
     background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 /*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 
