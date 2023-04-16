@@ -109,6 +109,10 @@ img.logo {
     margin-left: 100px;
     margin-top: 15px;
 }
+.logo{
+    width: 105px;
+    height: 60px;
+}
 
 /* Adds further spacing to the navigation links, creating a top margin */
 li.nav {
