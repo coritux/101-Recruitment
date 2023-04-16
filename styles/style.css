@@ -501,7 +501,6 @@ footer {
     margin-top: 70px;
   background-color:#fff;
   border: 1px solid #18acf7;
--webkit-box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    3px 3px 4px rgba(50, 50, 50, 0.75);
 box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
 }
@@ -864,7 +863,6 @@ td{
   border-radius: 12px;
   margin: 0;
   padding: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
