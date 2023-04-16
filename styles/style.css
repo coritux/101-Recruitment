@@ -146,6 +146,8 @@ li.nav {
 /* Sets the testimonials image to display:block in order to make it in line with the div element */
 #testimonials-img {
     display: block;
+    width: 500px;
+    height: 700px;
 }
 
 /* Sets the attributes for testimonial 1, the initial review that is displayed separately to that of the others */
@@ -392,6 +394,8 @@ footer {
 #footer-logo {
     margin-left: 70px;
     margin-top: 30px;
+    width: 155;
+    height: 65;
 }
 
 .footer-sub {
@@ -473,6 +477,8 @@ footer {
 
 #down-arrow {
     margin-top: 15px;
+    width: 24px;
+    height: 24px;
 }
 
 #company-benefits {
@@ -501,6 +507,12 @@ footer {
 
 #office-building {
     float: right;
+    width: 500px;
+    height: 400px;
+}
+#notepad {
+	width: 28px;
+	height: 28px;
 }
 
 #many-more {
@@ -530,12 +542,20 @@ footer {
   border: 1px solid #18acf7;
 -moz-box-shadow:    3px 3px 4px rgba(50, 50, 50, 0.75);
 box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
+width: 310px;
+height: 300px;
 }
 
 #company-example {
     border: 1px solid #ffffff;
     margin-right: 55px;
     margin-top: 40px;
+    width: 400px;
+    height: 300px;
+}
+#why-us-pics {
+	width: 28px;
+	height: 28px;
 }
 
 #img-caption {
