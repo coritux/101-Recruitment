@@ -128,7 +128,7 @@ li.nav {
 }
 
 /* Defines the history section div element, with the body text being set to white */
-#history-body {
+.history-body {
     color: #ffffff;
     margin-left: 100px;
     width: 800px;
