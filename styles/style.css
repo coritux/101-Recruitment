@@ -296,6 +296,7 @@ img#introduction {
     color: #ffffff;
     background-color: #18acf7;
 }
+/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
 #cta-buttonclass {
     cursor: pointer;
@@ -315,6 +316,7 @@ img#introduction {
     color: #18acf7;
     background-color: #ffffff;
 }
+/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
 footer {
     background-color: rgb(41, 41, 41);
@@ -863,12 +865,13 @@ td{
     font-size: 14px;
     background-color: #ffffff;
 }
+/*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 
 #job-buttonclass:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
-
+/*when cursor hovers over the Submit Application button on Job opening page the original appearance will transition to the color #ffffff and background color of #18acf7*/
 .columns {
   float: left;
   width: 25%;
@@ -919,11 +922,12 @@ td{
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-
+/*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 .button-tier:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
+/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
 @media only screen and (max-width: 600px) {
   .columns {
