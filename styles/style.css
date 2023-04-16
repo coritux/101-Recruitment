@@ -686,6 +686,8 @@ fieldset {
     text-align: center; 
     height: 700px;
   } 
+  /*This div will have a border, with a border radius making the corners rounded, font-size being 20px and being styled bold in the center, having space of 30px all around the element with the margin. 
+  Extra space all around within the element with padding*/
   input[type=text],input[type=date],select {
     font-size: 16px;
     padding: 10px;
@@ -819,7 +821,7 @@ td{
 	padding-top: 5px;
 	font-weight: bold;
 }
-
+/*The element will have more space around on the left with margin-left and space around the top within the element with padding, while the font being bold. */
 .flex-container {
     display: flex;
  }
@@ -849,7 +851,7 @@ td{
 	margin-left: 10px;
 	text-decoration: none;
 }
-
+/*job list will have a normal font weight and font style making space on the left of the .job-list.*/
 .job-list:hover {
 	text-decoration: underline;
 }
@@ -878,7 +880,7 @@ td{
   padding: 8px;
   box-sizing: border-box;
 }
-
+/*the class will be floated to the left with the width of 25% and 8px space within the element using padding.*/
 .price {
   list-style-type: none;
   border: 3px solid #000000;
@@ -887,28 +889,29 @@ td{
   padding: 0;
   transition: 0.3s;
 }
+/*price being the class for the unordered list, styled with no list style type, with a border and a border radius for rounded corners, also has a transition of 0.3s for when cursor hovers over the element*/
 
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
-
+/*when the cursor hovers the element a transition will happen changing the original appearance.*/
 .price .header {
   color: #000000;
   font-size: 25px;
 }
-
+/*making both class price and header color #000000 with a font-size 25px*/
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
-
+/*elements will have a border on the bottom, with 20px of space within the element with the text aligned in the center*/
 .price .grey {
   background-color: #18acf7;
   color: #ffffff;
   font-size: 20px;
 }
-
+/*Both elements will have the background-color of #18acf7 and the text within the elements will be #ffffff with the font size 20px*/
 .button-tier {
   cursor: pointer;
     width: 130px;
@@ -938,8 +941,10 @@ td{
 #timetable-header {
 	margin-top: 400px;
 }
+/*Margin-top will be creating space on the top outside of the element*/
 
 .job-desc-list {
 	font-weight: normal;
 	font-style: normal;
 }
+/*the font weight and style will be styled as normal*/
