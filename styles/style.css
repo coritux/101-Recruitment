@@ -890,8 +890,6 @@ td{
     transition: 0.3s ease-in-out;
     font-size: 14px;
     background-color: #ffffff;
-    padding: 15px 25px;
-    text-decoration: none;
 }
 /*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 
