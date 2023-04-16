@@ -381,6 +381,8 @@ footer {
 
 .social-icon {
     margin-left: 15px;
+    width: 16px;
+    height: 16px
 }
 
 #footer-logo {
