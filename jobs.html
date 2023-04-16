@@ -59,14 +59,14 @@ small font and centred in the footer..
     <div class="wrapper">
 	    <!-- using a class to separate CSS adjustments for this page //-->
 	    <div class = "jobDescription">
-		    <!-- //-->
+		    <!-- the individual descriptions are separated with 'section' tags, and 'id' tags are used for the chapters //-->
 		    <section class="jobInfo" id="00001">
 			    <h1>00001 - Front-End Web Developer</h1>
 			    <hr>
-                	<h2>Location: Melbourne, Australia<br>
-        		Category: Web Development<br>
-		    	Type: Full Time<br>
-			Salary: AU$75,000 - 95,000/yr<br></h2>
+	                	<h2>Location: Melbourne, Australia<br>
+        			Category: Web Development<br>
+			    	Type: Full Time<br>
+				Salary: AU$75,000 - 95,000/yr<br></h2>
 
         		<h3>Who are we looking for:</h3>
 			    <p>We are looking for a Front-End Web Developer to join the Web Development department of our online management services company.
@@ -104,11 +104,13 @@ small font and centred in the footer..
 			    </ul>
 				
     			<h3>Sounds like your new job? Apply below:<br>
+			<!-- A link to the job submission page //-->
 	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
 	
     		</section>
-	    	<section class="jobInfo" id="00002">
+	    	<!-- the individual descriptions are separated with 'section' tags, and 'id' tags are used for the chapters //-->
+			<section class="jobInfo" id="00002">
 		    	<hr>
 			    <h1>00002 - Back-End Web Developer</h1>
     			<hr>
@@ -143,10 +145,12 @@ small font and centred in the footer..
     			</ul>
 	
     			<h3>Sounds like your new job? Apply below:<br>
-	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
+	    		<!-- A link to the job submission page //-->
+			<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
     		</section>
-	    	<section class="jobInfo" id="00003">
+	    	<!-- the individual descriptions are separated with 'section' tags, and 'id' tags are used for the chapters //-->
+		    <section class="jobInfo" id="00003">
 		    	<hr>
 			    <h1>00003 - Full Stack Web Developer</h1>
     			<h2>Location: Melbourne, Australia<br>
@@ -178,22 +182,30 @@ small font and centred in the footer..
                 </ul>
 		
     			<h3>Sounds like your new job? Apply below:<br>
-	    		<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
+	    		<!-- A link to the job submission page //-->
+			<a href="apply.html"><input type="button" id="job-buttonclass" value="Submit Application"></a>
 		    	</h3>
 		    </section>
     	</div>
+	    <!-- the aside needed to be aligned to the right and at least 25% of the page width. //-->
 	    <aside class = "jobSidebar">
-			<p id="job-openings-header">Current Job Openings</p>
+		<p id="job-openings-header">Current Job Openings</p>
     		<hr id="jobs-hr">
-			<ol>
-				<li class="job-list"><a href="#00001" id="job-00001"> 00001 - Front-End Web Developer </a> </li>
+	            <!-- an ordered list to display the job listings, and links to jump to specific listings //-->
+		    <ol>
+			<li class="job-list"><a href="#00001" id="job-00001"> 00001 - Front-End Web Developer </a> </li>
 	    		<li class="job-list"><a href="#00002" id="job-00002"> 00002 - Back-End Web Developer </a> </li>
-				<li class="job-list"><a href="#00003" id="job-00003"> 00003 - Full stack Web Developer </a> </li>
-			</ol>
+			<li class="job-list"><a href="#00003" id="job-00003"> 00003 - Full stack Web Developer </a> </li>
+		    </ol>
 		</aside>
     </div>
 
-<!---  -->
+<!--- The footer is broken down into 4 'div' tags to demonstrate:
+ 		brand identity, 
+		a smaller version of the navigation above to serve as a sitemap, 
+		a physical address, 
+		and a set of social media links.
+ -->
     <footer>
         <div id="footer-main">
             <img src="images/logodarkmode.png" title="Company Logo" name="logo-footer" width="115" height="65" id="footer-logo">
