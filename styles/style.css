@@ -803,11 +803,11 @@ td{
 	margin-top: 0px;
 	text-align: center;
 }
-
+/*Enhancement header will be styled to be aligned in the center of the page*/
 .enhancement{
   text-align: left;
 }
-
+/*Text on the enhancement page will be aligned to the left of the page*/
 #jobs-hr {
 	width: 95%;
 }
