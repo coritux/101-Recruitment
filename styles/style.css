@@ -87,7 +87,7 @@ a.link:hover:after {
 }
   
 /* Style for the actual navigation bar itself, sets the background colour to white, border to grey, etc. */
-#navigation {
+.navigation {
     width: 100%;
     height: 88px;
     background-color: #ffffff;
@@ -97,7 +97,7 @@ a.link:hover:after {
 }
 
 /* Creates spacing between each link in the navigation menu, using the ul parent tag */
-ul#navigation {
+ul.navigation {
     margin: auto;
     margin-left: 200px;
     text-align: center;
@@ -111,7 +111,7 @@ img.logo {
 }
 
 /* Adds further spacing to the navigation links, creating a top margin */
-li#nav {
+li.nav {
     display: inline;
     margin-left: 20px;
     margin-top: 33px;
