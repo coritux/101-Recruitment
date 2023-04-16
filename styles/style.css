@@ -30,10 +30,13 @@ background colour specified in hexadecimal format
 7. All pages:  should have a fluid layout (the page should “Reflow” on page resize).
 */
 
+
+/* Apply the universal Lato font to the website */
 * {
     font-family: 'Lato', sans-serif;
 }
 
+/* Set body colour of all pages to a light grey */
 body {
     background-color: #f9f9f9;
     width: 100%;
@@ -41,10 +44,12 @@ body {
     padding: 0;
 }
 
+/* When hovering over a link in the 'link' class, change colour to blue*/
 a.link:hover {
     color: #007fee;
 }
 
+/* Link class style definitions, transition set to fade colour upon hovering */
 a.link {
     color: rgb(45, 45, 45);
     text-decoration: none;
@@ -53,7 +58,8 @@ a.link {
     text-decoration: none;
     position: relative;
 }
-      
+ 
+/* Underline Hover Effect implementation, defines the style of the line that displays */
 a.link:after {
     bottom: -4px;
     content: "";
@@ -65,12 +71,14 @@ a.link:after {
     transition: width 0.3s ease 0s, opacity 0.3s ease 0s;
     width: 0;
 }
-      
+
+/* Set the width of the link element to 100% */
 a.link:hover:after {
     width: 100%;
     opacity: 0.9;
 }
 
+/* Style for the div container defining the style of the navigation menu */
 #container {
     top: 0;
     left: 0;
@@ -78,6 +86,7 @@ a.link:hover:after {
     height: 200%;
 }
   
+/* Style for the actual navigation bar itself, sets the background colour to white, border to grey, etc. */
 #navigation {
     width: 100%;
     height: 88px;
@@ -87,6 +96,7 @@ a.link:hover:after {
     border-bottom: 1px solid #e5ecf1;
 }
 
+/* Creates spacing between each link in the navigation menu, using the ul parent tag */
 ul#navigation {
     margin: auto;
     margin-left: 200px;
@@ -94,36 +104,33 @@ ul#navigation {
     list-style-type: none;
 }
 
-#welcome {
-    background-color: #efefef;
-    width: 100vw;
-    height: 25px;
-    margin: auto;
-    text-align: center;
-}
-
+/* Defines the spacing around the 101 IT logo, situated on the navigation menu */
 img.logo {
     margin-left: 100px;
     margin-top: 15px;
 }
 
+/* Adds further spacing to the navigation links, creating a top margin */
 li#nav {
     display: inline;
     margin-left: 20px;
     margin-top: 33px;
 }
 
+/* Defines the initial introductory section under the navigation menu, containing the welcome text */
 #introduction {
     background-color: #fdfdfd;
     height: 500px;
 }
 
+/* Defines the history section div element, with the body text being set to white */
 #history-body {
     color: #ffffff;
     margin-left: 100px;
     width: 800px;
 }
 
+/* Defines the testimonials section div element, display flex used to assist in positioning of image on left */
 #testimonials {
     background-color: #efefef;
     height: 700px;
@@ -132,15 +139,18 @@ li#nav {
     flex: 33.33%;
 }
 
+/* Sets the testimonials image to display:block in order to make it in line with the div element */
 #testimonials-img {
     display: block;
 }
 
+/* Sets the attributes for testimonial 1, the initial review that is displayed separately to that of the others */
 #testimonial-1 {
     text-align: center;
     width: 1000px;
 }
 
+/* Sets the attributes for testimonial 1's heading text */
 #testimonial-1-header {
     font-weight: bold;
     font-size: 26px;
@@ -148,12 +158,14 @@ li#nav {
     margin-top: 10px;
 }
 
+/* Sets the attributes for testimonial 1's body text */
 #testimonial-1-body {
     width: 600px;
     text-align: center;
     margin-left: 190px;
 }
 
+/* Sets the attributes for testimonial 2, creating a box with a shadow and rounded corners */
 #testimonial-2 {   
   background-color: #f3f3f3;
   box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
@@ -170,6 +182,7 @@ li#nav {
   margin-top: 250px;
 }
 
+/* Sets the attributes for testimonial 3, creating a box with a shadow and rounded corners */
 #testimonial-3 {  
     background-color: #f3f3f3;  
   box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
@@ -186,6 +199,7 @@ li#nav {
   margin-top: 250px;
 }
 
+/* Sets the attributes for testimonial 4, creating a box with a shadow and rounded corners */
   #testimonial-4 { 
     background-color: #f3f3f3;   
     box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
@@ -202,6 +216,7 @@ li#nav {
   margin-top: 465px;
   }
 
+/* Sets the attributes for testimonial 5, creating a box with a shadow and rounded corners */
   #testimonial-5 {  
     background-color: #f3f3f3;  
     box-shadow: 0 0 14px rgba(0,0,0,0.30), 0 0px 0px rgba(0,0,0,0.22);
@@ -217,7 +232,8 @@ li#nav {
   margin-left: 1020px;
   margin-top: 465px;
   }
-  
+ 
+/* Defines the style of the title present in the Call to Action section at the bottom of the page */
   p#cta-title {
     margin: auto;
     font-size: 22px;
@@ -227,6 +243,7 @@ li#nav {
     color: #ffffff;
 }
 
+/* Defines the style of the body text present in the Call to Action section */
 p#cta-body {
     margin: auto;
     margin-left: 150px;
@@ -234,6 +251,7 @@ p#cta-body {
     color: #ffffff;
 }
 
+/* Stylises the div element of the Call to Action section*/
 #call-to-action {
     background-color: #18acf7;
     margin-bottom: 0px;
@@ -464,6 +482,7 @@ footer {
     padding-top: 35px;
 }
 
+/* Makes the dot points within the company benefits list white*/
 #benefits-list {
     color: #ffffff;
     text-align: left;
