@@ -49,7 +49,6 @@ a.link {
     color: rgb(45, 45, 45);
     text-decoration: none;
     font-size: 15px;
-    -webkit-transition: color 0.3s;
     transition: color 0.3s;
     text-decoration: none;
     position: relative;
