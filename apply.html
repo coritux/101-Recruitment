@@ -37,15 +37,15 @@
             </div>
         </nav>
     </div>
-  <div class="sec">
-    <h2 class="h2">Job Application</h2>
+  <div class="sec"> <!--starting of the div-->
+    <h2 class="h2">Job Application</h2> <!--Title of the page-->
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
       <!--Link provided for the form is where the data collected from the form will be returned and echoed back the user.-->
     <fieldset>
       <legend>Job Type</legend>
       <p><label>Job Reference Number <input type="text" name="Reference_Number" size="35" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p>
       <!--Job Reference Number Label were the user will only be able to enter a maxmimum amount of 5 Alphanumeric Characters-->
-    </fieldset>
+    </fieldset> <!--Using fieldset to seperate different sections on the form-->
     <hr>
     <fieldset>
       <legend>Personal Details</legend><br>
@@ -54,7 +54,7 @@
       <p><label>Date of Birth <input type="date" name="Date_of_Birth" required="required"></label></p>
       <!--Date of Birth label will use the input type "Date" user can enter date using calendar.-->
     </fieldset>
-    <hr>
+    <hr> <!--hr also being used as a seperator between the different sections of the form-->
     <fieldset>
       <legend>Gender</legend><br> <label><input type="radio" name="Gender" value="Male"> Male</label>&nbsp;&nbsp;<label><input type="radio" name="Gender" value="Female">Female</label>&nbsp;&nbsp;<label><input type="radio" name="Gender" value="Other" required="required">Other</label>
       <!--Gender label function will display a radio input type, if no input entered alert will appear asking user to enter an input-->
