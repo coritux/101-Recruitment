@@ -862,7 +862,7 @@ td{
 	text-decoration: underline;
 }
 
-#job-buttonclass {
+.job-buttonclass {
     cursor: pointer;
 	margin-top: 10px;
     width: 150px;
@@ -875,7 +875,7 @@ td{
 }
 /*cursor pointer will indicate a link, and a transition of 0.3 seconds ease out of the original colours when hovered over. */
 
-#job-buttonclass:hover {
+.job-buttonclass:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
