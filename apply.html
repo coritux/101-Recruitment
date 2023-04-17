@@ -6,159 +6,172 @@
   <meta name="description" content="Page for application to job">
   <meta name="keywords" content="Apply, Application, Job Application">
   <meta name="author" content="Tafadzwa Mudavanhu">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Submit Application | 101 Recruitment</title>
-</head>
-<!-- Container to hold the navidgation bar-->
+</head><!-- Container to hold the navidgation bar-->
 <body>
-   <div id="container">
-        <nav>
-            <div class="navigation">
-                <a href="index.html" title="Return to Homepage"><img src="images/logo.png" class="logo" alt="101 IT Company Logo"></a>
-                <ul class="navigation">
-                    <li class="nav">
-                        <a href="index.html" class="link">Home</a>
-                    </li>
-                    <li class="nav">
-                        <a href="jobs.html" class="link">Job Openings</a>
-                    </li>
-                    <li class="nav">
-                        <a href="apply.html" class="link">Submit Application</a>
-                    </li>
-                    <li class="nav">
-                        <a href="services.html" class="link">Services</a>
-                    </li>
-                    <li class="nav">
-                        <a href="enhancements.html" class="link">Enhancements</a>
-                    </li>
-                    <li class="nav">
-                        <a href="about.html" class="link">About Us</a>
-                    </li>
-                 </ul>
-            </div>
-        </nav>
-    </div>
-  <div class="sec"> <!--starting of the div classified as "sec" to section out the content of the page, so in CSS, styling can be done easier-->
-    <h2 class="h2">Job Application</h2> <!--Title of the page-->
+  <div id="container">
+    <nav>
+      <div class="navigation">
+        <a href="index.html" title="Return to Homepage"><img src="images/logo.png" class="logo" alt="101 IT Company Logo"></a>
+        <ul class="navigation">
+          <li class="nav">
+            <a href="index.html" class="link">Home</a>
+          </li>
+          <li class="nav">
+            <a href="jobs.html" class="link">Job Openings</a>
+          </li>
+          <li class="nav">
+            <a href="apply.html" class="link">Submit Application</a>
+          </li>
+          <li class="nav">
+            <a href="services.html" class="link">Services</a>
+          </li>
+          <li class="nav">
+            <a href="enhancements.html" class="link">Enhancements</a>
+          </li>
+          <li class="nav">
+            <a href="about.html" class="link">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="sec">
+    <!--starting of the div classified as "sec" to section out the content of the page, so in CSS, styling can be done easier-->
+    <h2 class="h2">Job Application</h2><!--Title of the page-->
     <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
       <!--Link provided for the form is where the data collected from the form will be returned and echoed back the user.-->
-    <fieldset>
-      <legend>Job Type</legend>
-      <p><label>Job Reference Number <input type="text" name="Reference_Number" size="35" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p>
-      <!--Job Reference Number Label were the user will only be able to enter a maxmimum amount of 5 Alphanumeric Characters-->
-    </fieldset> <!--Using fieldset to seperate different sections on the form-->
-    <hr>
-    <fieldset>
-      <legend>Personal Details</legend><br>
-      <div style="float:left;margin-right:20px;"><label>First Name <input type="text" name="First_Name" size="40" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label></div>&nbsp;&nbsp;&nbsp;<div style="float:left;"><label>Last Name <input type="text" name="Last_Name" size="40" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label></div><br><br><br><br><br>
-      <!--First Name and Last Name labels placed next to each other using float and margin functions, which will only allow alphabetic characters to be input at max length of 20-->
-      <p><label>Date of Birth <input type="date" name="Date_of_Birth" required="required"></label></p>
-      <!--Date of Birth label will use the input type "Date" user can enter date using calendar.-->
-    </fieldset>
-    <hr> <!--hr also being used as a seperator between the different sections of the form-->
-    <fieldset>
-      <legend>Gender</legend><br> <label><input type="radio" name="Gender" value="Male"> Male</label>&nbsp;&nbsp;<label><input type="radio" name="Gender" value="Female">Female</label>&nbsp;&nbsp;<label><input type="radio" name="Gender" value="Other" required="required">Other</label>
-      <!--Gender label function will display a radio input type, if no input entered alert will appear asking user to enter an input-->
-    </fieldset>
-    <hr>
-    <fieldset>
-      <legend>Contact Details</legend><br><label>Street Address <input type="text" name="Street_Address" size="40" required="required" maxlength="40"></label><br>
-      <p><label>Suburb/town <input type="text" id="ip6" name="Suburb/Town" size="40" required="required" maxlength="40"></label></p>
-      <p><div style="float:left;margin-right:20px;"><label>Postcode <input type="text"  name="Postcode" pattern="[0-9-]+" maxlength="4" required="required"></label></div>&nbsp;&nbsp;
-        <div style="float:left;"><label for="State">State </label><select name="State" id="State">
-        <option value="VIC">
-          VIC
-        </option>
-        <option value="NSW">
-          NSW
-        </option>
-        <option value="QLD">
-          QLD
-        </option>
-        <option value="NT">
-          NT
-        </option>
-        <option value="WA">
-          WA
-        </option>
-        <option value="SA">
-          SA
-        </option>
-        <option value="TAS">
-          TAS
-        </option>
-        <option value="ACT">
-          ACT
-        </option>
-      </select></div>
-      <!--For the State select function will be used-->
-      <br><br><br><br>
-      <p><div style="float:left;margin-right:20px;"><label>Email <input type="text" name="Email" size="40" placeholder="name@domain.com" pattern="^.+@.+\..{2,3}$" required="required"></label></div>&nbsp;&nbsp;
-        <!--Email will use a placeholder to allow users to see what format is expecte to be entered, pattern is also used to make sure users enter the expected input-->
-        <div style="float:left;"><label>Phone Number <input type="text" name="Phone_Number" size="30" maxlength="12" pattern="[0-9\s]+" required="required"></label></div>
-        <!--Phone Number will allow input data of numbers and spaces, with the max length of 12 characters -->
-    </fieldset>
-    <hr>
-    <fieldset>
-      <legend>Skill List</legend><br> <label><input type="checkbox" name="Skills[]" value="Html" checked>HTML</label> <label><input type="checkbox" name="Skills[]" value="JavaScript">JavaScript</label> <label><input type="checkbox" name="Skills[]" value="CSS">CSS</label> <label><input type="checkbox" name="Skills[]" value="XML">XML</label> <label><input type="checkbox" name="Skills[]" value="PHP">PHP</label> <label><input type="checkbox" name="Skills[]" value="MySQL">MySQL</label> <label><input type="checkbox" name="Skills[]" value="Other Skills">Other Skills</label>
-      <p><label>Other Skills<br>
-      <textarea placeholder="Please enter other skills...." rows="10" cols="50"></textarea></label></p>
-      <!--Skill list will use input type a checkbox where different options will be available for selection. Textarea also used for the "other skills" using a placeholder to inform users that they can type inside.-->
-    </fieldset>
-    <hr>
-    <div id="submission">
-    <p id="enhancement1"><label><input type="submit" id="submit" value="Apply"></label>&nbsp;<label><input type="reset" id="reset" value="Reset"></label></p>
-    <!--Submit button which will allow users to submit their data, if every required data box is filled out with expected input, if not they will be notified to make changes. The data will then be returned to them and echoed on the PHP page.
+      <fieldset>
+        <legend>Job Type</legend>
+        <p><label for="referencenumber">Job Reference Number <input type="text" id="referencenumber" name="Reference_Number" size="35" pattern="[A-Za-z0-9]+" maxlength="5" required="required"></label></p><!--Job Reference Number Label were the user will only be able to enter a maxmimum amount of 5 Alphanumeric Characters-->
+      </fieldset><!--Using fieldset to seperate different sections on the form-->
+      <hr>
+      <fieldset>
+        <legend>Personal Details</legend><br>
+        <div style="float:left;margin-right:20px;">
+          <label for="firstname">First Name <input type="text" id="firstname" name="First_Name" size="40" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label>
+        </div>&nbsp;&nbsp;&nbsp;
+        <div style="float:left;">
+          <label for="lastname">Last Name <input type="text" id="lastname" name="size=" pattern="^[a-zA-Z]+$" maxlength="20" required="required"></label>
+        </div><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--First Name and Last Name labels placed next to each other using float and margin functions, which will only allow alphabetic characters to be input at max length of 20-->
+        <p><label for="dateofbirth">Date of Birth <input type="date" id="dateofbirth" name="Date_of_Birth" required="required"></label></p><!--Date of Birth label will use the input type "Date" user can enter date using calendar.-->
+      </fieldset>
+      <hr>
+      <!--hr also being used as a seperator between the different sections of the form-->
+      <fieldset>
+        <legend>Gender</legend><br>
+        <label for="Male"><input type="radio" id="Male" name="Gender" value="Male"> Male</label>&nbsp;&nbsp;<label for="Female"><input type="radio" id="Female" name="Gender" value="Female">Female</label>&nbsp;&nbsp;<label for="Other"><input type="radio" id="Other" name="Gender" value="Other" required="required">Other</label> <!--Gender label function will display a radio input type, if no input entered alert will appear asking user to enter an input-->
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Contact Details</legend><br>
+        <label for="Street_Address">Street Address <input type="text" id="Street_Address" name="Street_Address" size="40" required="required" maxlength="40"></label><br>
+        <p><label for="suburb/town">Suburb/town <input type="text" id="suburb/town" name="Suburb/Town" size="40" required="required" maxlength="40"></label></p>
+        <div style="float:left;margin-right:20px;">
+          <label for="postcode">Postcode <input type="text" id="postcode" name="Postcode" pattern="[0-9-]+" maxlength="4" required="required"></label>
+        </div>&nbsp;&nbsp;
+        <div style="float:left;">
+          <label for="State">State</label> <select name="State" id="State">
+            <option value="VIC">
+              VIC
+            </option>
+            <option value="NSW">
+              NSW
+            </option>
+            <option value="QLD">
+              QLD
+            </option>
+            <option value="NT">
+              NT
+            </option>
+            <option value="WA">
+              WA
+            </option>
+            <option value="SA">
+              SA
+            </option>
+            <option value="TAS">
+              TAS
+            </option>
+            <option value="ACT">
+              ACT
+            </option>
+          </select>
+        </div><!--For the State select function will be used-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="float:left;margin-right:20px;">
+          <label for="email">Email <input type="text" id="email" name="Email" size="40" placeholder="name@domain.com" pattern="^.+@.+\..{2,3}$" required="required"></label>
+        </div>&nbsp;&nbsp; <!--Email will use a placeholder to allow users to see what format is expecte to be entered, pattern is also used to make sure users enter the expected input-->
+        <div style="float:left;">
+          <label for="phone_number">Phone Number <input type="text" id="phone_number" name="Phone_Number" size="30" maxlength="12" pattern="[0-9\s]+" required="required"></label>
+        </div><!--Phone Number will allow input data of numbers and spaces, with the max length of 12 characters -->
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Skill List</legend><br>
+        <label for="Html"><input type="checkbox" id="Html" name="Skills[]" value="Html" checked>HTML</label> <label for="javascript"><input type="checkbox" id="javascript" name="Skills[]" value="JavaScript">JavaScript</label> <label for="css"><input type="checkbox" id="css" name="Skills[]" value="CSS">CSS</label> <label for="XML"><input type="checkbox" id="XML" name="Skills[]" value="XML">XML</label> <label for="PHP"><input type="checkbox" id="PHP" name="Skills[]" value="PHP">PHP</label> <label for="MySQL"><input type="checkbox" id="MySQL" name="Skills[]" value="MySQL">MySQL</label> <label for="otherskills"><input type="checkbox" id="otherskills" name="Skills[]" value="Other Skills">Other Skills</label>
+        <p><label for="textarea">Other Skills<br>
+        <textarea placeholder="Please enter other skills...." id="textarea" rows="10" cols="50"></textarea></label></p><!--Skill list will use input type a checkbox where different options will be available for selection. Textarea also used for the "other skills" using a placeholder to inform users that they can type inside.-->
+      </fieldset>
+      <hr>
+      <div id="submission">
+        <p id="enhancement1"><label for="submit"><input type="submit" id="submit" value="Apply"></label>&nbsp;<label for="reset"><input type="reset" id="reset" value="Reset"></label></p><!--Submit button which will allow users to submit their data, if every required data box is filled out with expected input, if not they will be notified to make changes. The data will then be returned to them and echoed on the PHP page.
     The reset button will just clear all of the data that has been input.-->
-    </div>
-  </form> <!--Ending of the form-->
-</div> <!--Ending of the div-->
-<!-- this the footer which will be at the bottom of the page which is broken into 4 divs, main including company logo,
+      </div>
+    </form><!--Ending of the form-->
+  </div><!--Ending of the div-->
+  <!-- this the footer which will be at the bottom of the page which is broken into 4 divs, main including company logo,
 links for the different pages within the website,
 location of our headquaters and our socials -->
-<footer>
-        <div id="footer-main">
-            <img src="images/logodarkmode.png" title="Company Logo" width="115" height="65" id="footer-logo">
-            <p class="footer-sub">Proudly delivering unique and industry-leading solutions to companies around the world.</p>
-        </div>
-        <div id="footer-links">
-                <p class="footer-section-title">Links</p>
-                <ul id="footer-nav">
-                    <li>
-                        <a href="index.html" class="footer-nav-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="jobs.html" class="footer-nav-link">Job Openings</a>
-                    </li>
-                    <li>
-                        <a href="apply.html" class="footer-nav-link">Submit Application</a>
-                    </li>
-                    <li>
-                        <a href="services.html" class="footer-nav-link">Services</a>
-                    </li>
-                    <li>
-                        <a href="enhancements.html" class="footer-nav-link">Enhancements</a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="footer-nav-link">About Us</a>
-                    </li>
-                 </ul>
-        </div>
-        <div id="footer-location">
-            <p class="footer-section-title">Our Location</p>
-            <p class="footer-location-body">Swing by our office:</p>
-            <p class="footer-location-body">427-451 Burwood Rd, Hawthorn, VIC 3122, Australia</p>
-        </div>
-        <div id="footer-socials">
-            <p class="footer-section-title">Check out our Socials</p>
-            <div id="social-icon-group">
-                <a href="https://facebook.com/101-Recruitment"><img src="images/facebook.png" class="social-icon" title="Facebook"></a>
-                <a href="https://twitter.com/101-Recruitment"><img src="images/twitter.png" class="social-icon" title="Twitter"></a>
-                <a href="https://instagram.com/101-Recruitment"><img src="images/instagram.png" class="social-icon" title="Instagram"></a>
-                <a href="https://youtube.com/101-Recruitment"><img src="images/youtube.png" class="social-icon" title="YouTube"></a>
-            </div>
-        </div>
-        <p id="footer-sub-copy">Copyright &copy; 2023 101 IT. All rights reserved.</p>
-    </footer>
+  <footer>
+    <div id="footer-main">
+      <img src="images/logodarkmode.png" title="Company Logo" width="115" height="65" id="footer-logo" alt="logodarkmode">
+      <p class="footer-sub">Proudly delivering unique and industry-leading solutions to companies around the world.</p>
+    </div>
+    <div id="footer-links">
+      <p class="footer-section-title">Links</p>
+      <ul id="footer-nav">
+        <li>
+          <a href="index.html" class="footer-nav-link">Home</a>
+        </li>
+        <li>
+          <a href="jobs.html" class="footer-nav-link">Job Openings</a>
+        </li>
+        <li>
+          <a href="apply.html" class="footer-nav-link">Submit Application</a>
+        </li>
+        <li>
+          <a href="services.html" class="footer-nav-link">Services</a>
+        </li>
+        <li>
+          <a href="enhancements.html" class="footer-nav-link">Enhancements</a>
+        </li>
+        <li>
+          <a href="about.html" class="footer-nav-link">About Us</a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-location">
+      <p class="footer-section-title">Our Location</p>
+      <p class="footer-location-body">Swing by our office:</p>
+      <p class="footer-location-body">427-451 Burwood Rd, Hawthorn, VIC 3122, Australia</p>
+    </div>
+    <div id="footer-socials">
+      <p class="footer-section-title">Check out our Socials</p>
+      <div id="social-icon-group">
+        <a href="https://facebook.com/101-Recruitment"><img src="images/facebook.png" class="social-icon" title="Facebook" alt="facebook"></a> <a href="https://twitter.com/101-Recruitment"><img src="images/twitter.png" class="social-icon" title="Twitter" alt="twitter"></a> <a href="https://instagram.com/101-Recruitment"><img src="images/instagram.png" class="social-icon" title="Instagram" alt="instagram"></a> <a href="https://youtube.com/101-Recruitment"><img src="images/youtube.png" class="social-icon" title="YouTube" alt="youtube"></a>
+      </div>
+    </div>
+    <p id="footer-sub-copy">Copyright © 2023 101 IT. All rights reserved.</p>
+  </footer>
 </body>
 </html>
