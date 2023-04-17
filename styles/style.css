@@ -343,7 +343,7 @@ img#introduction {
 }
 
 #cta-button {
-	margin-top: 35px;	
+	margin-top: 25px;	
 }
 
 /* Stylises the footer, setting the height and making its background dark grey */
@@ -371,13 +371,14 @@ footer {
     margin-top: 0px;
 }
 
-/* Stylises the company history section of the homepage */
+/* Defines the "main" section of the footer, containing the company logo and a short message */
 #footer-main {
     width: 350px;
     display: inline-block;
     position: relative;
 }
 
+/* Defines the "links" section of the footer, containing a basic navigation menu linking to each page within the website */
 #footer-links {
     width: 190px;
     display: inline-block;
@@ -385,6 +386,7 @@ footer {
     margin-left: 20px;
 }
 
+/* Defines the "location" section of the footer, comprised of the company's location */
 #footer-location {
     width: 225px;
     display: inline-block;
@@ -392,6 +394,7 @@ footer {
     margin-left: 20px;
 }
 
+/* Defines the "socials" section of the footer, which contains the social media icons */
 #footer-socials {
     width: 250px;
     display: inline-block;
@@ -399,21 +402,25 @@ footer {
     margin-left: 20px;
 }
 
+/* Adds a margin to the entirety of the social media icons, concentrating them under the social header */
 #social-icon-group {
     margin-left: 32px;
 }
 
+/* Defines the sizing of and spacing between each social media icon */
 .social-icon {
     margin-left: 15px;
     width: 16px;
     height: 16px
 }
 
+/* Determines the margins of the footer company logo */
 #footer-logo {
     margin-left: 70px;
     margin-top: 30px;
 }
 
+/* Determines the margins of the footer company logo */
 .footer-sub {
     color: white;
     margin-left: 75px;
