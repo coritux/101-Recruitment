@@ -287,21 +287,25 @@ img#introduction {
 }
 
 #buttonclass {
-    cursor: pointer;
-    margin-left: 200px;
-    width: 130px;
+     cursor: pointer;
+	margin-top: 10px;
+    width: 150px;
     height: 40px;
     border: 1.5px solid #18acf7;
+    border-radius: 4px;
     color: #18acf7;
     transition: 0.3s ease-in-out;
     font-size: 14px;
     background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
 #buttonclass:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
+
 /*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
 #cta-buttonclass {
@@ -817,7 +821,7 @@ td{
     margin-left: auto;
     margin-right: auto;
     width: 130px;
-    height: 40px;
+    height: 40px;	
 }
 /*mailto link will be in the center using margins*/
 
