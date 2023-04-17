@@ -288,7 +288,7 @@ img#introduction {
 
 #buttonclass {
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 25px;
     width: 150px;
     height: 40px;
     border: 1.5px solid #18acf7;
@@ -311,16 +311,19 @@ img#introduction {
 
 #cta-buttonclass {
     cursor: pointer;
-    margin-left: 150px;
     margin-top: 20px;
-    margin-bottom: 50px;
     width: 130px;
     height: 40px;
     border: 1.5px solid #ffffff;
+    border-radius: 4px;
+    margin-bottom: 50px;
     color: #ffffff;
     transition: 0.3s ease-in-out;
     font-size: 14px;
     background-color: #18acf7;
+    margin-left: 150px;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 #cta-buttonclass:hover {
