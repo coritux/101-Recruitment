@@ -427,12 +427,14 @@ footer {
     margin-top: 18px;
 }
 
+/* Determines styling for the copyright footer */
 #footer-sub-copy {
     color: white;
     margin-top: 20px;
     text-align: center;
 }
 
+/* Sets title of each of the footer headers to white, adds additional spacing */
 .footer-section-title {
     font-size: 16px;
     color: white;
@@ -441,11 +443,13 @@ footer {
     padding-top: 15px;
 }
 
+/* Removes bullet points from the footer navigation menu */
 #footer-nav {
    list-style-type: none; 
    margin-left: 5px;
 }
 
+/* Defines style of each footer navigation menu link */
 .footer-nav-link {
     color: #ffffff;
     text-decoration: none;
@@ -453,6 +457,7 @@ footer {
     margin-top: 8px;
 }
 
+/* Adds colour to the star ratings within the testimonials section */
 .star-rating {
     color: #fbd100;
     margin-top: 0px;
@@ -461,26 +466,31 @@ footer {
     user-select: none;
 }
 
+/* Adds colour to the star rating within the first initial testimonial */
 #star-rating-header {
     color: #fbd100;
     font-size: 18px;
     user-select: none;
 }
 
+/* Sets properties of the initial testimonial header */
 .testimonial-title {
     margin-top: 6px;
     font-weight: bold;
 }
 
+/* Sets properties of the "Why Us" section */
 #why-us {
     height: 420px;
     text-align: center;
 }
 
+/* Sets properties of the "Why Us" section header */
 #why-us-title {
     padding-top: 10px;
 }
 
+/* Sets properties of the "Why Us" section cards */
 .why-us-card {
     height: 200px;
     display: inline-block;
@@ -489,27 +499,32 @@ footer {
     margin-top: 35px;
 }
 
+/* Converts the text of each "Why Us" card title into bold */
 .why-us-body-title {
     font-weight: bold;
 }
 
+/* Sets styling of text initialising the testimonials section */
 .testimonial-introduction {
     margin-top: 5px;
     margin-bottom: 6px;
 }
 
+/* Converts the text of each "Why Us" card title into bold */
 #down-arrow {
     margin-top: 15px;
     width: 24px;
     height: 24px;
 }
 
+/* Sets value of the company benefits div section */
 #company-benefits {
     height: 400px;
     width: 100%;
     background-image: linear-gradient(#45b8f2, #14B1FF);
 }
 
+/* Determines formatting of header in the Company Benefits section of the homepage */
 #benefits-header {
     color: #ffffff;
     text-align: left;
@@ -554,6 +569,7 @@ footer {
     background-color: #ffffff;
 }
 
+/* Defines the style of the caption under the "Original Headquarters" image in the history section of the homepage */
 #company-caption {
     text-align: left;
     color: #ffffff;
@@ -562,18 +578,19 @@ footer {
     font-size: 14px;
 }
 
+/* Adds spacing and shadows to the office building image present on the introduction section of the homepage */
 #office-top {
     float:right;
     margin-right: 150px;
     margin-top: 70px;
   background-color:#fff;
   border: 1px solid #18acf7;
--moz-box-shadow:    3px 3px 4px rgba(50, 50, 50, 0.75);
 box-shadow:         3px 3px 4px rgba(50, 50, 50, 0.75);
 width: 310px;
 height: 300px;
 }
 
+/* Defines the elements of the original company headquarters image within the history section of the homepage */
 #company-example {
     border: 1px solid #ffffff;
     margin-right: 55px;
@@ -582,25 +599,28 @@ height: 300px;
     height: 300px;
 }
 
-
-
+/* Concentrates the caption to the original headquarters image to the right of the div element */
 #img-caption {
     float: right;
 }
 
+/* Adds spacing between author information and enhancements description on the enhancements page */
 .author {
     margin-top: 8px;
 }
 
+/* Removes margin between testimonial body text and testimonial author */
 .testimonial-body {
     margin-bottom: 0px;
 }
 
+/* Sets height and text alignment of the company values section */
 #company-values {
     height: 400px;
     text-align: center;
 }
 
+/* A central container that outlines the values of the company */
 #company-values-container {
     height: 200px;
     display: inline-block;
@@ -608,20 +628,25 @@ height: 300px;
     margin-top: 35px;
 }
 
+/* Adds padding to the portion of text linking to our group video */
 #learn-more {
     padding-top: 10px;
 }
 
+/* Adds colour to the link directing users to our website tour via YouTube */
 #about-us-link {
     text-decoration: none;
     color: #18acf7;
 }
 
+/* Adds properties to the body text of the "Location" section in the footer */
 .footer-location-body {
     margin-left: 45px;
     color: #ffffff;
 }
 
+
+/* Sets the properties of the wrapper div element in the Job Openings Page */
 .wrapper{
     display: flex;
     justify-content: space-between;
@@ -635,8 +660,9 @@ height: 300px;
     text-align: left; 
 }
 
+/* Determines the elements of the navigation sidebar on the Job Openings page, making it sticky */
 .jobSidebar{
-    width: 30%;
+    width: 25%;
     border-style: solid;
 	border-radius: 12px;  
     height: 25vh;
@@ -644,6 +670,7 @@ height: 300px;
     top: 0;   
 }
 
+/* Adds styling to the Job Openings container, making the border of it rounded */
 .jobDescription {
  width: 60%;
  border-style: solid;
@@ -651,11 +678,13 @@ height: 300px;
  border-radius: 12px; 
 }
 
+/* Adds margins to the Job Information description of each position on the Job Openings page */
 .jobInfo {
 	margin-left: 15px;
 	margin-right: 15px;
 }
 
+/* Align body text on the job application form to the left of the div element */
 .jobApplication {
  text-align: left;
 }
