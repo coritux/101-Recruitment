@@ -312,7 +312,7 @@ img#introduction {
 
 #cta-buttonclass {
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 130px;
     height: 40px;
     border: 1.5px solid #ffffff;
@@ -330,10 +330,6 @@ img#introduction {
 #cta-buttonclass:hover {
     color: #18acf7;
     background-color: #ffffff;
-}
-
-#cta-button {
-     margin-top: 25px;
 }
 /*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
