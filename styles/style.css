@@ -503,21 +503,26 @@ footer {
     width: 700px;
 }
 
+/* Dictates the sizing and positioning of the office building stock image within the copany benefits section */
 #office-building {
     float: right;
     width: 500px;
     height: 400px;
 }
+
+/* Sizes the Notepad icon within the Our Values section */
 #notepad {
 	width: 28px;
 	height: 28px;
 }
 
+/* Sets the size of the Notepad icon within the Our Values section */
 #many-more {
     color: #ffffff;
     margin-left: 60px;
 }
 
+/* Sets the size of the Notepad icon within the Our Values section */
 #company-values {
     height: 400px;
     width: 100%;
