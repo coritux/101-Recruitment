@@ -261,6 +261,7 @@ p#cta-body {
 #call-to-action {
     background-color: #18acf7;
     margin-bottom: 0px;
+    height: 300px;
 }
 
 h1#intro-title {
@@ -288,7 +289,7 @@ img#introduction {
 
 #buttonclass {
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 50px;
     width: 150px;
     height: 40px;
     border: 1.5px solid #18acf7;
@@ -311,7 +312,7 @@ img#introduction {
 
 #cta-buttonclass {
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 130px;
     height: 40px;
     border: 1.5px solid #ffffff;
