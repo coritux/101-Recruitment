@@ -261,7 +261,7 @@ p#cta-body {
 #call-to-action {
     background-color: #18acf7;
     margin-bottom: 0px;
-    height: 300px;
+    height: 250px;
 }
 
 h1#intro-title {
@@ -330,6 +330,10 @@ img#introduction {
 #cta-buttonclass:hover {
     color: #18acf7;
     background-color: #ffffff;
+}
+
+#cta-button {
+     margin-top: 25px;
 }
 /*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
