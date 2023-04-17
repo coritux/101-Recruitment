@@ -239,7 +239,7 @@ li.nav {
   margin-top: 465px;
   }
  
-/* Defines the style of the title present in the Call to Action section at the bottom of the page */
+/* Defines the style of the title present in the Call to Action section at the bottom of the homepage */
   p#cta-title {
     margin: auto;
     font-size: 22px;
@@ -249,7 +249,7 @@ li.nav {
     color: #ffffff;
 }
 
-/* Defines the style of the body text present in the Call to Action section */
+/* Defines the style of the body text present in the Call to Action section of the homepage */
 p#cta-body {
     margin: auto;
     margin-left: 150px;
@@ -257,13 +257,14 @@ p#cta-body {
     color: #ffffff;
 }
 
-/* Stylises the div element of the Call to Action section*/
+/* Stylises the div element of the Call to Action section of the homepage*/
 #call-to-action {
     background-color: #18acf7;
     margin-bottom: 0px;
-    height: 250px;
+    height: 200px;
 }
 
+/* Adds properties to header in introduction section of the homepage, including making its color grey */
 h1#intro-title {
     margin: 0;
     padding-top: 88px;
@@ -272,6 +273,7 @@ h1#intro-title {
     margin-bottom: 10px;
 }
 
+/* Stylises the body text within the introduction section of the homepage */
 p.intro-body {
     color: rgb(45, 45, 45);
     margin-left: 200px;
@@ -280,6 +282,7 @@ p.intro-body {
     width: 650px;
 }
 
+/* Ensures the office building in the introduction section of the homepage floats to the right of the screen */
 img#introduction {
     float: right;
     height: 500px;
@@ -287,6 +290,7 @@ img#introduction {
     margin: 0;
 }
 
+/* Adds properties to the "Job Openings" button in the introduction section of the homepage  */
 #buttonclass {
     cursor: pointer;
     margin-top: 50px;
@@ -303,13 +307,18 @@ img#introduction {
     margin-left: 200px;
 }
 
+#introduction-button {
+	margin-top: 20px;	
+}
+
+/* Upon hovering, the Job Openings button in the introduction section inverts colours on the homepage */
 #buttonclass:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
 
-/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
+/* Adds properties to the "Job Openings" button in the call to action section of the homepage */
 #cta-buttonclass {
     cursor: pointer;
     margin-top: 25px;
@@ -327,12 +336,17 @@ img#introduction {
     padding: 10px 20px;
 }
 
+/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 #cta-buttonclass:hover {
     color: #18acf7;
     background-color: #ffffff;
 }
-/*when cursor hovers over the button the original appearance will transition to the color #ffffff and background color of #18acf7*/
 
+#cta-button {
+	margin-top: 35px;	
+}
+
+/* Stylises the footer, setting the height and making its background dark grey */
 footer {
     background-color: rgb(41, 41, 41);
     height: 275px;
@@ -340,20 +354,14 @@ footer {
     font-size: 13px;
 }
 
-#rcorners2 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
-}
-
+/* Stylises the company history section of the homepage */
 #history {
     height: 425px;
     width: 100%;
     background-image: linear-gradient(#45b8f2, #14B1FF);
 }
 
+/* Adds spacing to the header in the history section of the homepage */
 #header-history {
     margin-left: 100px;
     padding-top: 50px;
@@ -363,6 +371,7 @@ footer {
     margin-top: 0px;
 }
 
+/* Stylises the company history section of the homepage */
 #footer-main {
     width: 350px;
     display: inline-block;
