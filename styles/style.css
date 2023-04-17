@@ -286,7 +286,7 @@ img#introduction {
     margin: 0;
 }
 
-.buttonclass {
+#buttonclass {
     cursor: pointer;
     margin-left: 200px;
     width: 130px;
@@ -298,7 +298,7 @@ img#introduction {
     background-color: #ffffff;
 }
 
-.buttonclass:hover {
+#buttonclass:hover {
     color: #ffffff;
     background-color: #18acf7;
 }
